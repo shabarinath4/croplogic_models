@@ -1,0 +1,776 @@
+{
+  "country": "MOZ",
+  "crop": "maize",
+  "extent": [
+    "MOZ"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 10,
+      "fisher_score": 0.061550892889499664,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 16,
+      "fisher_score": 0.04076043516397476,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "REP",
+      "t_position": 2,
+      "fisher_score": 0.043440792709589005,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 0,
+      "fisher_score": 0.41280892491340637,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 3,
+      "fisher_score": 0.41280892491340637,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 0,
+      "fisher_score": 0.404510498046875,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 3,
+      "fisher_score": 0.404510498046875,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 0,
+      "fisher_score": 0.3784451484680176,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 3,
+      "fisher_score": 0.3784451484680176,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 0,
+      "fisher_score": 0.35512232780456543,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 3,
+      "fisher_score": 0.35512232780456543,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 6,
+      "fisher_score": 0.23104719817638397,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 6,
+      "fisher_score": 0.23087771236896515,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 6,
+      "fisher_score": 0.21950620412826538,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 6,
+      "fisher_score": 0.19838343560695648,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 0,
+      "fisher_score": 0.18402810394763947,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 3,
+      "fisher_score": 0.18402810394763947,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 18,
+      "fisher_score": 0.1762402504682541,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 10,
+      "fisher_score": 0.1616397351026535,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 13,
+      "fisher_score": 0.1616397351026535,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 6,
+      "fisher_score": 0.14530983567237854,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 0,
+      "fisher_score": 0.13442690670490265,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 6,
+      "fisher_score": 0.13377046585083008,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 9,
+      "fisher_score": 0.13377046585083008,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 0,
+      "fisher_score": 0.13093134760856628,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 3,
+      "fisher_score": 0.13093134760856628,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 16,
+      "fisher_score": 0.1276324838399887,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 3,
+      "fisher_score": 0.12714149057865143,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 18,
+      "fisher_score": 0.12668757140636444,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 1,
+      "fisher_score": 0.12425608932971954,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 18,
+      "fisher_score": 0.12381943315267563,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 18,
+      "fisher_score": 0.11282674223184586,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 18,
+      "fisher_score": 0.10513653606176376,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 6,
+      "fisher_score": 0.10009543597698212,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 9,
+      "fisher_score": 0.09154469519853592,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 0,
+      "fisher_score": 0.08880025893449783,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 9,
+      "fisher_score": 0.0884961485862732,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 9,
+      "fisher_score": 0.08465585857629776,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 9,
+      "fisher_score": 0.08394701033830643,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 3,
+      "fisher_score": 0.08243627101182938,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 9,
+      "fisher_score": 0.0720411017537117,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 11,
+      "fisher_score": 0.07060463726520538,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 14,
+      "fisher_score": 0.07060463726520538,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 17,
+      "fisher_score": 0.06947549432516098,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 12,
+      "fisher_score": 0.06728331744670868,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 11,
+      "fisher_score": 0.0645294338464737,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 14,
+      "fisher_score": 0.0645294338464737,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 17,
+      "fisher_score": 0.060686059296131134,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 9,
+      "fisher_score": 0.059358861297369,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 17,
+      "fisher_score": 0.05494152382016182,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 17,
+      "fisher_score": 0.05328642576932907,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 0,
+      "fisher_score": 0.05299427732825279,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 0,
+      "fisher_score": 0.05221284180879593,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 7,
+      "fisher_score": 0.050987083464860916,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 15,
+      "fisher_score": 0.04960857331752777,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 3,
+      "fisher_score": 0.0494072400033474,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B02",
+      "t_position": 0,
+      "fisher_score": 0.04921460524201393,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 3,
+  "n_selected": 57,
+  "n_positive_train_samples": 159,
+  "n_negative_train_samples": 117,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@10": 159,
+    "MCARI@16": 159,
+    "REP@2": 159,
+    "S2-L2A-B8A@0": 159,
+    "S2-L2A-B8A@3": 159,
+    "S2-L2A-B07@0": 159,
+    "S2-L2A-B07@3": 159,
+    "S2-L2A-B06@0": 159,
+    "S2-L2A-B06@3": 159,
+    "S2-L2A-B08@0": 159,
+    "S2-L2A-B08@3": 159,
+    "S2-L2A-B07@6": 159,
+    "S2-L2A-B8A@6": 159,
+    "S2-L2A-B06@6": 159,
+    "S2-L2A-B08@6": 159,
+    "GCVI@0": 159,
+    "GCVI@3": 159,
+    "NDYI@18": 159,
+    "MNDWI@10": 159,
+    "MNDWI@13": 159,
+    "GCVI@6": 159,
+    "S2-L2A-B05@0": 159,
+    "NDYI@6": 159,
+    "NDYI@9": 159,
+    "NDVI@0": 159,
+    "NDVI@3": 159,
+    "MNDWI@16": 159,
+    "S2-L2A-B05@3": 159,
+    "S2-L2A-B8A@18": 159,
+    "NDYI@1": 159,
+    "S2-L2A-B07@18": 159,
+    "S2-L2A-B06@18": 159,
+    "S2-L2A-B08@18": 159,
+    "NDVI@6": 159,
+    "S2-L2A-B06@9": 159,
+    "S2-L2A-B03@0": 159,
+    "S2-L2A-B07@9": 159,
+    "GCVI@9": 159,
+    "S2-L2A-B8A@9": 159,
+    "S2-L2A-B03@3": 159,
+    "S2-L2A-B08@9": 159,
+    "S2-L2A-B11@11": 159,
+    "S2-L2A-B11@14": 159,
+    "GCVI@17": 159,
+    "NDYI@12": 159,
+    "S2-L2A-B12@11": 159,
+    "S2-L2A-B12@14": 159,
+    "S2-L2A-B11@17": 159,
+    "NDVI@9": 159,
+    "NDVI@17": 159,
+    "S2-L2A-B12@17": 159,
+    "S2-L2A-B11@0": 159,
+    "S1-SIGMA0-VV@0": 159,
+    "MNDWI@7": 159,
+    "NDYI@15": 159,
+    "S1-SIGMA0-VV@3": 159,
+    "S2-L2A-B02@0": 159
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@10": {
+      "Other": 0.07716587911370397,
+      "rice": 0.418935195893665,
+      "sorghum": 0.37473417393152575,
+      "soy_soybeans": 0.11987882388547744
+    },
+    "MCARI@16": {
+      "Other": 0.007137564878169217,
+      "rice": 0.7098804111045117,
+      "sorghum": 0.21154522883429186,
+      "soy_soybeans": 1.3647257551934646
+    },
+    "REP@2": {
+      "Other": 0.12241721544015072,
+      "rice": 0.1398302722147664,
+      "sorghum": 0.16797535081504766,
+      "soy_soybeans": 1.1079286263129542
+    },
+    "S2-L2A-B8A@0": {
+      "Other": 0.21227810153375584,
+      "rice": 0.2832106344042117,
+      "sorghum": 1.2033086814640845,
+      "soy_soybeans": 0.11046706918388122
+    },
+    "S2-L2A-B8A@3": {
+      "Other": 0.2783856259395243,
+      "rice": 0.2607522286684561,
+      "sorghum": 1.2033086814640845,
+      "soy_soybeans": 0.06513643640961057
+    },
+    "S2-L2A-B07@0": {
+      "Other": 0.21447808200322668,
+      "rice": 0.30854019305120883,
+      "sorghum": 1.11486272156827,
+      "soy_soybeans": 0.07037484125691115
+    },
+    "S2-L2A-B07@3": {
+      "Other": 0.2783130908496214,
+      "rice": 0.2824507202304442,
+      "sorghum": 1.11486272156827,
+      "soy_soybeans": 0.11920397240699533
+    },
+    "S2-L2A-B06@0": {
+      "Other": 0.21402751705134662,
+      "rice": 0.3008512811967482,
+      "sorghum": 1.1412058553204107,
+      "soy_soybeans": 0.04667560846127756
+    },
+    "S2-L2A-B06@3": {
+      "Other": 0.28471302968581613,
+      "rice": 0.2462408479126411,
+      "sorghum": 1.1412058553204107,
+      "soy_soybeans": 0.1014236870318157
+    },
+    "S2-L2A-B08@0": {
+      "Other": 0.15336552110374257,
+      "rice": 0.2627043967983079,
+      "sorghum": 1.1031428376474663,
+      "soy_soybeans": 0.0747443680581769
+    },
+    "S2-L2A-B08@3": {
+      "Other": 0.24100816985786674,
+      "rice": 0.24171376334395164,
+      "sorghum": 1.1031428376474663,
+      "soy_soybeans": 0.06684956627089966
+    },
+    "S2-L2A-B07@6": {
+      "Other": 0.3697219870123216,
+      "rice": 0.07086788567743416,
+      "sorghum": 0.5215166667261272,
+      "soy_soybeans": 0.28279532514141675
+    },
+    "S2-L2A-B8A@6": {
+      "Other": 0.3475934174509441,
+      "rice": 0.06935203724626862,
+      "sorghum": 0.5556759386417859,
+      "soy_soybeans": 0.22735136997433508
+    },
+    "S2-L2A-B06@6": {
+      "Other": 0.36594246686385656,
+      "rice": 0.06342934698292034,
+      "sorghum": 0.5763613477206584,
+      "soy_soybeans": 0.19272822675711912
+    },
+    "S2-L2A-B08@6": {
+      "Other": 0.3179567868123998,
+      "rice": 0.07729422222926975,
+      "sorghum": 0.526478243492819,
+      "soy_soybeans": 0.18389326632432457
+    },
+    "GCVI@0": {
+      "Other": 0.019485956855581774,
+      "rice": 0.683413361147668,
+      "sorghum": 0.026987942739020658,
+      "soy_soybeans": 0.500339854530365
+    },
+    "GCVI@3": {
+      "Other": 0.11492193877912782,
+      "rice": 0.683413361147668,
+      "sorghum": 0.05072780034739617,
+      "soy_soybeans": 2.345021375792883
+    },
+    "NDYI@18": {
+      "Other": 0.09738253322480166,
+      "rice": 0.7099635590553791,
+      "sorghum": 0.07205815562960563,
+      "soy_soybeans": 0.7900332012239372
+    },
+    "MNDWI@10": {
+      "Other": 0.03196825280914248,
+      "rice": 1.0313051560182602,
+      "sorghum": 0.12240781248083807,
+      "soy_soybeans": 0.37710897968053747
+    },
+    "MNDWI@13": {
+      "Other": 0.009915779814455959,
+      "rice": 1.0313051560182602,
+      "sorghum": 0.029717978362789547,
+      "soy_soybeans": 0.43324928879368935
+    },
+    "GCVI@6": {
+      "Other": 0.18029351705309443,
+      "rice": 0.3037461973809046,
+      "sorghum": 0.11512254886835019,
+      "soy_soybeans": 2.757373556967491
+    },
+    "S2-L2A-B05@0": {
+      "Other": 0.19269550558861748,
+      "rice": 0.09407392963402378,
+      "sorghum": 1.759749480655652,
+      "soy_soybeans": 0.03219102852540085
+    },
+    "NDYI@6": {
+      "Other": 0.28860619790675424,
+      "rice": 0.12881842132829477,
+      "sorghum": 0.008527317777262082,
+      "soy_soybeans": 3.5768315980305454
+    },
+    "NDYI@9": {
+      "Other": 0.28860619790675424,
+      "rice": 0.053542235588500596,
+      "sorghum": 0.0035615386375746506,
+      "soy_soybeans": 3.5768315980305454
+    },
+    "NDVI@0": {
+      "Other": 0.01897533982079142,
+      "rice": 1.192882481727204,
+      "sorghum": 0.20592922189018503,
+      "soy_soybeans": 0.13561971528732367
+    },
+    "NDVI@3": {
+      "Other": 0.03317705068108357,
+      "rice": 1.192882481727204,
+      "sorghum": 0.321295214073744,
+      "soy_soybeans": 1.3500522396307106
+    },
+    "MNDWI@16": {
+      "Other": 0.07146378750421326,
+      "rice": 0.9003282925527281,
+      "sorghum": 0.029717978362789547,
+      "soy_soybeans": 0.3457059347614728
+    },
+    "S2-L2A-B05@3": {
+      "Other": 0.19269550558861748,
+      "rice": 0.16826755990523573,
+      "sorghum": 1.759749480655652,
+      "soy_soybeans": 0.21117919715772504
+    },
+    "S2-L2A-B8A@18": {
+      "Other": 0.24819825194195122,
+      "rice": 0.25246462684955007,
+      "sorghum": 0.42073420652625737,
+      "soy_soybeans": 0.5212531530427933
+    },
+    "NDYI@1": {
+      "Other": 0.10592438000406502,
+      "rice": 0.414486836174798,
+      "sorghum": 0.05153668525210315,
+      "soy_soybeans": 0.27831737391837885
+    },
+    "S2-L2A-B07@18": {
+      "Other": 0.23105623144053555,
+      "rice": 0.20169150528598415,
+      "sorghum": 0.338193494320843,
+      "soy_soybeans": 0.4389484419882923
+    },
+    "S2-L2A-B06@18": {
+      "Other": 0.24215378081314565,
+      "rice": 0.28862748744579336,
+      "sorghum": 0.4627075153583433,
+      "soy_soybeans": 0.27437535884200975
+    },
+    "S2-L2A-B08@18": {
+      "Other": 0.2384484767088423,
+      "rice": 0.22243360454038597,
+      "sorghum": 0.34134592209963494,
+      "soy_soybeans": 0.3473585614633145
+    },
+    "NDVI@6": {
+      "Other": 0.1291063591810943,
+      "rice": 0.5115495117718594,
+      "sorghum": 0.3709645677423944,
+      "soy_soybeans": 1.6911995219233522
+    },
+    "S2-L2A-B06@9": {
+      "Other": 0.36594246686385656,
+      "rice": 0.5644679811350004,
+      "sorghum": 0.0976039828083737,
+      "soy_soybeans": 0.3217795713045174
+    },
+    "S2-L2A-B03@0": {
+      "Other": 0.12084495695858297,
+      "rice": 0.10015406358356427,
+      "sorghum": 1.3489948461496886,
+      "soy_soybeans": 0.40135124901042724
+    },
+    "S2-L2A-B07@9": {
+      "Other": 0.3697219870123216,
+      "rice": 0.5388639490036159,
+      "sorghum": 0.059629761277211084,
+      "soy_soybeans": 0.4851956362235468
+    },
+    "GCVI@9": {
+      "Other": 0.18029351705309443,
+      "rice": 0.09491466221475031,
+      "sorghum": 0.12485629940045875,
+      "soy_soybeans": 2.441638851945764
+    },
+    "S2-L2A-B8A@9": {
+      "Other": 0.3475934174509441,
+      "rice": 0.5802102561761923,
+      "sorghum": 0.0633352501577724,
+      "soy_soybeans": 0.530270891094113
+    },
+    "S2-L2A-B03@3": {
+      "Other": 0.12084495695858297,
+      "rice": 0.13195961222513292,
+      "sorghum": 1.3489948461496886,
+      "soy_soybeans": 1.204117034496207
+    },
+    "S2-L2A-B08@9": {
+      "Other": 0.3179567868123998,
+      "rice": 0.7090865380276734,
+      "sorghum": 0.05234859038547013,
+      "soy_soybeans": 0.2614733208362041
+    },
+    "S2-L2A-B11@11": {
+      "Other": 0.022301051624919375,
+      "rice": 1.584065651929666,
+      "sorghum": 0.3830266077050698,
+      "soy_soybeans": 0.45129761709504657
+    },
+    "S2-L2A-B11@14": {
+      "Other": 0.031038879089420955,
+      "rice": 1.6358863120664808,
+      "sorghum": 0.1895229718064179,
+      "soy_soybeans": 0.7859948621477031
+    },
+    "GCVI@17": {
+      "Other": 0.10080954275702628,
+      "rice": 0.3461898569530658,
+      "sorghum": 0.06800203543443437,
+      "soy_soybeans": 2.2741203273229496
+    },
+    "NDYI@12": {
+      "Other": 0.19628788865691255,
+      "rice": 0.011865280018016863,
+      "sorghum": 0.011183168922815585,
+      "soy_soybeans": 2.053646178620364
+    },
+    "S2-L2A-B12@11": {
+      "Other": 0.0092927380840542,
+      "rice": 1.1175592864039614,
+      "sorghum": 0.6363931310930231,
+      "soy_soybeans": 0.7190814164252347
+    },
+    "S2-L2A-B12@14": {
+      "Other": 0.0092927380840542,
+      "rice": 1.1269096197961468,
+      "sorghum": 0.21166350645764015,
+      "soy_soybeans": 0.9889636388686979
+    },
+    "S2-L2A-B11@17": {
+      "Other": 0.07447446851750367,
+      "rice": 1.64585407435687,
+      "sorghum": 0.623039233979015,
+      "soy_soybeans": 1.0859892225807912
+    },
+    "NDVI@9": {
+      "Other": 0.1371862091412558,
+      "rice": 0.19984430139759002,
+      "sorghum": 0.3709645677423944,
+      "soy_soybeans": 1.5940942893141536
+    },
+    "NDVI@17": {
+      "Other": 0.045758066976264784,
+      "rice": 0.752849687604245,
+      "sorghum": 0.1696977274539264,
+      "soy_soybeans": 1.3110877098587546
+    },
+    "S2-L2A-B12@17": {
+      "Other": 0.01682916884946324,
+      "rice": 1.4651806223686816,
+      "sorghum": 0.4291230861473714,
+      "soy_soybeans": 1.3737177312266828
+    },
+    "S2-L2A-B11@0": {
+      "Other": 0.31154507962238176,
+      "rice": 0.5560725811492254,
+      "sorghum": 1.5145312158840745,
+      "soy_soybeans": 0.10216334431824795
+    },
+    "S1-SIGMA0-VV@0": {
+      "Other": 0.11041923373779852,
+      "rice": 0.28867392612646436,
+      "sorghum": 0.1141167220606687,
+      "soy_soybeans": 0.1434756730558824
+    },
+    "MNDWI@7": {
+      "Other": 0.12378622147662645,
+      "rice": 0.6914056003707386,
+      "sorghum": 0.12240781248083807,
+      "soy_soybeans": 0.37710897968053747
+    },
+    "NDYI@15": {
+      "Other": 0.08269132769093199,
+      "rice": 0.09432906449079331,
+      "sorghum": 0.07205815562960563,
+      "soy_soybeans": 0.23385465069769418
+    },
+    "S1-SIGMA0-VV@3": {
+      "Other": 0.11041923373779852,
+      "rice": 0.3342656766461726,
+      "sorghum": 0.22190297790885283,
+      "soy_soybeans": 0.1434756730558824
+    },
+    "S2-L2A-B02@0": {
+      "Other": 0.10800770759314153,
+      "rice": 0.24485988467506586,
+      "sorghum": 1.1711063328422764,
+      "soy_soybeans": 0.45176706509455455
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.15942028985507245,
+      "maize": 0.5760869565217391,
+      "millet": 0.0036231884057971015,
+      "rice": 0.14855072463768115,
+      "sorghum": 0.10144927536231885,
+      "soy_soybeans": 0.010869565217391304
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/maize/MOZ_maize_prototypes.npz"
+}

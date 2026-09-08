@@ -1,0 +1,199 @@
+{
+  "country": "SEN",
+  "crop": "maize",
+  "extent": [
+    "SEN"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 18,
+      "fisher_score": 1.1168469190597534,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 11,
+      "fisher_score": 1.1224983930587769,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 14,
+      "fisher_score": 1.1224983930587769,
+      "source": "literature"
+    },
+    {
+      "band": "REP",
+      "t_position": 12,
+      "fisher_score": 0.4927653670310974,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 13,
+      "fisher_score": 1.4749711751937866,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 16,
+      "fisher_score": 1.4749711751937866,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 2,
+      "fisher_score": 1.436739444732666,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 5,
+      "fisher_score": 1.436739444732666,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 12,
+      "fisher_score": 1.3981012105941772,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 15,
+      "fisher_score": 1.3981012105941772,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 2,
+      "fisher_score": 1.357949137687683,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 5,
+      "fisher_score": 1.357949137687683,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 18,
+      "fisher_score": 1.250097393989563,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 12,
+      "fisher_score": 1.189363956451416,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 15,
+      "fisher_score": 1.189363956451416,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 12,
+      "fisher_score": 1.18501615524292,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 15,
+      "fisher_score": 1.18501615524292,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 4,
+  "n_selected": 17,
+  "n_positive_train_samples": 3234,
+  "n_negative_train_samples": 376,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@18": 3234,
+    "MCARI@11": 3234,
+    "MCARI@14": 3234,
+    "REP@12": 3234,
+    "S2-L2A-B04@13": 3234,
+    "S2-L2A-B04@16": 3234,
+    "S2-L2A-B11@2": 3234,
+    "S2-L2A-B11@5": 3234,
+    "NDVI@12": 3234,
+    "NDVI@15": 3234,
+    "S2-L2A-B12@2": 3234,
+    "S2-L2A-B12@5": 3234,
+    "NDVI@18": 3234,
+    "S2-L2A-B05@12": 3234,
+    "S2-L2A-B05@15": 3234,
+    "S2-L2A-B12@12": 3234,
+    "S2-L2A-B12@15": 3234
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@18": {
+      "Other": 1.1846436046798852
+    },
+    "MCARI@11": {
+      "Other": 1.1640565838319303
+    },
+    "MCARI@14": {
+      "Other": 1.1640565838319303
+    },
+    "REP@12": {
+      "Other": 0.5498781381677167
+    },
+    "S2-L2A-B04@13": {
+      "Other": 1.5582023623271102
+    },
+    "S2-L2A-B04@16": {
+      "Other": 1.5582023623271102
+    },
+    "S2-L2A-B11@2": {
+      "Other": 1.4295727564556466
+    },
+    "S2-L2A-B11@5": {
+      "Other": 1.4295727564556466
+    },
+    "NDVI@12": {
+      "Other": 1.4842700933128907
+    },
+    "NDVI@15": {
+      "Other": 1.4842700933128907
+    },
+    "S2-L2A-B12@2": {
+      "Other": 1.3675189018263967
+    },
+    "S2-L2A-B12@5": {
+      "Other": 1.3675189018263967
+    },
+    "NDVI@18": {
+      "Other": 1.2926997456387537
+    },
+    "S2-L2A-B05@12": {
+      "Other": 1.2836137014036186
+    },
+    "S2-L2A-B05@15": {
+      "Other": 1.291011131335888
+    },
+    "S2-L2A-B12@12": {
+      "Other": 1.2538466082847153
+    },
+    "S2-L2A-B12@15": {
+      "Other": 1.2538466082847153
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.1041551246537396,
+      "maize": 0.8958448753462603
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/maize/SEN_maize_prototypes.npz"
+}

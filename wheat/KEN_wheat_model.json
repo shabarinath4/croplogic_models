@@ -1,0 +1,66 @@
+{
+  "country": "KEN",
+  "crop": "wheat",
+  "extent": [
+    "KEN"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 13,
+      "fisher_score": 0.4783915579319,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 0,
+      "fisher_score": 0.27347320318222046,
+      "forced_literature_default": true,
+      "source": "literature"
+    }
+  ],
+  "n_candidates_above_floor": 2,
+  "n_selected": 2,
+  "n_positive_train_samples": 104,
+  "n_negative_train_samples": 3776,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@13": 104,
+    "GCVI@0": 104
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@13": {
+      "Other": 0.5000305654054324,
+      "barley": 0.034452733822773494,
+      "maize": 0.5013213185293715,
+      "millet": 0.4307905809759289,
+      "sorghum": 0.720756995581052,
+      "sunflower": 0.3775460861825076
+    },
+    "GCVI@0": {
+      "Other": 0.23449031241747526,
+      "barley": 0.09309563273041492,
+      "maize": 0.31247595681924156,
+      "millet": 0.07654766016310864,
+      "sorghum": 0.2604561700283086,
+      "sunflower": 0.24986856638795973
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.3582474226804124,
+      "barley": 0.0036082474226804126,
+      "maize": 0.5956185567010309,
+      "millet": 0.010309278350515464,
+      "sorghum": 0.002577319587628866,
+      "soy_soybeans": 0.0002577319587628866,
+      "sunflower": 0.002577319587628866,
+      "wheat": 0.026804123711340205
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/wheat/KEN_wheat_prototypes.npz"
+}

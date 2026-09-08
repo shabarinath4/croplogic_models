@@ -1,0 +1,107 @@
+{
+  "country": "LTU",
+  "crop": "rapeseed_rape",
+  "extent": [
+    "LTU"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 11,
+      "fisher_score": 4.3368048667907715,
+      "source": "literature"
+    },
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 14,
+      "fisher_score": 4.3368048667907715,
+      "source": "literature"
+    },
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 17,
+      "fisher_score": 1.9791144132614136,
+      "source": "literature"
+    },
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 8,
+      "fisher_score": 1.950600504875183,
+      "source": "literature"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 10,
+      "fisher_score": 0.8811788558959961,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 10,
+      "fisher_score": 4.46779203414917,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 13,
+      "fisher_score": 4.46779203414917,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 5,
+  "n_selected": 7,
+  "n_positive_train_samples": 218,
+  "n_negative_train_samples": 867,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@11": 218,
+    "S1-SIGMA0-VH@14": 218,
+    "S1-SIGMA0-VH@17": 218,
+    "S1-SIGMA0-VH@8": 218,
+    "NDYI@10": 218,
+    "MNDWI@10": 218,
+    "MNDWI@13": 218
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@11": {
+      "Other": 5.553386722684335,
+      "maize": 5.30033927995604
+    },
+    "S1-SIGMA0-VH@14": {
+      "Other": 5.553386722684335,
+      "maize": 5.30033927995604
+    },
+    "S1-SIGMA0-VH@17": {
+      "Other": 2.086589157477061,
+      "maize": 1.17750575650362
+    },
+    "S1-SIGMA0-VH@8": {
+      "Other": 3.146871576858481,
+      "maize": 3.139493450017583
+    },
+    "NDYI@10": {
+      "Other": 1.0670576460612582,
+      "maize": 5.6380835950707375
+    },
+    "MNDWI@10": {
+      "Other": 5.962457597379965,
+      "maize": 5.136043889988663
+    },
+    "MNDWI@13": {
+      "Other": 5.962457597379965,
+      "maize": 5.136043889988663
+    }
+  },
+  "split_relationship": "same_parent",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.7692307692307693,
+      "maize": 0.03111495246326707,
+      "rapeseed_rape": 0.1996542783059637
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/rapeseed_rape/LTU_rapeseed_rape_prototypes.npz"
+}

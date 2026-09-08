@@ -1,0 +1,361 @@
+{
+  "country": "LVA",
+  "crop": "wheat",
+  "extent": [
+    "LVA"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 0,
+      "fisher_score": 0.2276025265455246,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 9,
+      "fisher_score": 1.357006311416626,
+      "source": "literature"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 12,
+      "fisher_score": 1.357006311416626,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 10,
+      "fisher_score": 1.9759926795959473,
+      "source": "discovered"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 13,
+      "fisher_score": 1.9759926795959473,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 10,
+      "fisher_score": 1.6593384742736816,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 13,
+      "fisher_score": 1.6593384742736816,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 10,
+      "fisher_score": 1.4940006732940674,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 13,
+      "fisher_score": 1.4940006732940674,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 2,
+      "fisher_score": 1.1033082008361816,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 5,
+      "fisher_score": 1.1033082008361816,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 8,
+      "fisher_score": 1.0935829877853394,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 11,
+      "fisher_score": 1.0935829877853394,
+      "source": "discovered"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 7,
+      "fisher_score": 1.0414822101593018,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 9,
+      "fisher_score": 1.0354182720184326,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 12,
+      "fisher_score": 1.0354182720184326,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 9,
+      "fisher_score": 0.9807660579681396,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 12,
+      "fisher_score": 0.9807660579681396,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 3,
+  "n_selected": 18,
+  "n_positive_train_samples": 894,
+  "n_negative_train_samples": 1792,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@0": 894,
+    "GCVI@9": 894,
+    "GCVI@12": 894,
+    "MCARI@10": 894,
+    "MCARI@13": 894,
+    "S2-L2A-B05@10": 894,
+    "S2-L2A-B05@13": 894,
+    "S2-L2A-B03@10": 894,
+    "S2-L2A-B03@13": 894,
+    "NDVI@2": 894,
+    "NDVI@5": 894,
+    "NDVI@8": 894,
+    "NDVI@11": 894,
+    "MCARI@7": 894,
+    "S2-L2A-B04@9": 894,
+    "S2-L2A-B04@12": 894,
+    "S2-L2A-B11@9": 894,
+    "S2-L2A-B11@12": 894
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@0": {
+      "Other": 0.14635917041853053,
+      "barley": 0.19531793734061514,
+      "maize": 0.1885135482703315,
+      "rapeseed_rape": 1.605814815628268,
+      "rye": 0.19200865131482986,
+      "soy_soybeans": 0.4045078683406965,
+      "spring_barley": 0.24737341469453125,
+      "spring_rapeseed_rape": 0.3366878998874855,
+      "spring_wheat": 0.37392858459947
+    },
+    "GCVI@9": {
+      "Other": 0.9934527268207372,
+      "barley": 0.37632765608973606,
+      "maize": 5.480929022359019,
+      "rapeseed_rape": 1.0777525725676917,
+      "rye": 0.5160664364405827,
+      "soy_soybeans": 5.145499913144416,
+      "spring_barley": 2.8774735039587678,
+      "spring_rapeseed_rape": 3.236189851627014,
+      "spring_wheat": 2.807640732551233
+    },
+    "GCVI@12": {
+      "Other": 1.0846415840399244,
+      "barley": 0.7306460629609048,
+      "maize": 6.149752760357128,
+      "rapeseed_rape": 1.209411261950152,
+      "rye": 1.131567918439419,
+      "soy_soybeans": 5.145499913144416,
+      "spring_barley": 2.7922454047498375,
+      "spring_rapeseed_rape": 3.236189851627014,
+      "spring_wheat": 2.807640732551233
+    },
+    "MCARI@10": {
+      "Other": 2.2873096545562106,
+      "barley": 0.27179108536678454,
+      "maize": 7.682827730909331,
+      "rapeseed_rape": 5.003894568799775,
+      "rye": 0.310397980422805,
+      "soy_soybeans": 7.371563708829279,
+      "spring_barley": 3.0120214501101703,
+      "spring_rapeseed_rape": 4.046645508659903,
+      "spring_wheat": 2.525613656911703
+    },
+    "MCARI@13": {
+      "Other": 2.405180616262579,
+      "barley": 0.9757835697527129,
+      "maize": 7.682827730909331,
+      "rapeseed_rape": 5.569986804857272,
+      "rye": 0.38049411474790196,
+      "soy_soybeans": 7.371563708829279,
+      "spring_barley": 3.0120214501101703,
+      "spring_rapeseed_rape": 4.098087558150769,
+      "spring_wheat": 2.3476025772611244
+    },
+    "S2-L2A-B05@10": {
+      "Other": 1.7001603051208636,
+      "barley": 0.2829487599823246,
+      "maize": 5.377312571524143,
+      "rapeseed_rape": 5.053165600608925,
+      "rye": 0.36397354847268565,
+      "soy_soybeans": 8.007050065779156,
+      "spring_barley": 2.208238650824824,
+      "spring_rapeseed_rape": 3.4336991540741932,
+      "spring_wheat": 1.701088133173772
+    },
+    "S2-L2A-B05@13": {
+      "Other": 1.7001603051208636,
+      "barley": 1.2072125285154276,
+      "maize": 5.377312571524143,
+      "rapeseed_rape": 5.053165600608925,
+      "rye": 0.4860042271710664,
+      "soy_soybeans": 8.007050065779156,
+      "spring_barley": 2.208238650824824,
+      "spring_rapeseed_rape": 3.4336991540741932,
+      "spring_wheat": 1.701088133173772
+    },
+    "S2-L2A-B03@10": {
+      "Other": 1.1720493024094716,
+      "barley": 0.4005603329656847,
+      "maize": 4.9155988703770905,
+      "rapeseed_rape": 5.7604988593988296,
+      "rye": 0.3565562279434331,
+      "soy_soybeans": 9.073020154621027,
+      "spring_barley": 2.3763864849907375,
+      "spring_rapeseed_rape": 3.6904547942065076,
+      "spring_wheat": 1.7408937478775073
+    },
+    "S2-L2A-B03@13": {
+      "Other": 1.1720493024094716,
+      "barley": 0.86034568696514,
+      "maize": 4.9155988703770905,
+      "rapeseed_rape": 5.7604988593988296,
+      "rye": 0.4692770556331062,
+      "soy_soybeans": 9.073020154621027,
+      "spring_barley": 2.3763864849907375,
+      "spring_rapeseed_rape": 3.6904547942065076,
+      "spring_wheat": 1.7408937478775073
+    },
+    "NDVI@2": {
+      "Other": 1.3128712368259263,
+      "barley": 0.1854612681728726,
+      "maize": 3.635872831344657,
+      "rapeseed_rape": 0.180623818167144,
+      "rye": 0.027821342078129217,
+      "soy_soybeans": 3.7453936172597704,
+      "spring_barley": 3.10850238979455,
+      "spring_rapeseed_rape": 3.327538467351986,
+      "spring_wheat": 2.732983710091769
+    },
+    "NDVI@5": {
+      "Other": 1.3128712368259263,
+      "barley": 0.24954868495898364,
+      "maize": 4.417828739207366,
+      "rapeseed_rape": 0.2066925630212177,
+      "rye": 0.0064663065216055225,
+      "soy_soybeans": 4.35949932537144,
+      "spring_barley": 4.217999174512057,
+      "spring_rapeseed_rape": 4.247975848581156,
+      "spring_wheat": 3.694543893471605
+    },
+    "NDVI@8": {
+      "Other": 1.0549758229803308,
+      "barley": 0.24705649545606567,
+      "maize": 13.033067257106707,
+      "rapeseed_rape": 0.22168305567742158,
+      "rye": 0.06990848508350063,
+      "soy_soybeans": 12.322663713090105,
+      "spring_barley": 5.499124913369701,
+      "spring_rapeseed_rape": 5.6228471791556345,
+      "spring_wheat": 5.424514269297331
+    },
+    "NDVI@11": {
+      "Other": 0.6617307717802923,
+      "barley": 0.36287386723391685,
+      "maize": 17.30479321726781,
+      "rapeseed_rape": 0.2988972367097732,
+      "rye": 0.6911461412309766,
+      "soy_soybeans": 12.920894818781097,
+      "spring_barley": 5.499124913369701,
+      "spring_rapeseed_rape": 5.6228471791556345,
+      "spring_wheat": 5.424514269297331
+    },
+    "MCARI@7": {
+      "Other": 0.7167308211207077,
+      "barley": 0.6200229853509611,
+      "maize": 2.1304572209320947,
+      "rapeseed_rape": 0.885821497449401,
+      "rye": 0.08042238159422271,
+      "soy_soybeans": 3.4895525381646397,
+      "spring_barley": 2.645676997282165,
+      "spring_rapeseed_rape": 1.5376856984663463,
+      "spring_wheat": 2.3326424423212218
+    },
+    "S2-L2A-B04@9": {
+      "Other": 0.6405698230117962,
+      "barley": 0.37239552707117485,
+      "maize": 6.475280517869634,
+      "rapeseed_rape": 1.4763483728282445,
+      "rye": 0.12416068306549075,
+      "soy_soybeans": 10.651034448916064,
+      "spring_barley": 2.6243761089103312,
+      "spring_rapeseed_rape": 2.9183941834844376,
+      "spring_wheat": 2.5659991699409224
+    },
+    "S2-L2A-B04@12": {
+      "Other": 0.6866566083512599,
+      "barley": 0.7527557325123075,
+      "maize": 6.9623497878821645,
+      "rapeseed_rape": 1.4763483728282445,
+      "rye": 0.4380597351872331,
+      "soy_soybeans": 10.651034448916064,
+      "spring_barley": 2.6243761089103312,
+      "spring_rapeseed_rape": 2.9183941834844376,
+      "spring_wheat": 2.5659991699409224
+    },
+    "S2-L2A-B11@9": {
+      "Other": 1.4761995252032452,
+      "barley": 0.13038000041841097,
+      "maize": 7.288610422289467,
+      "rapeseed_rape": 0.058692654191568064,
+      "rye": 0.03229723433666473,
+      "soy_soybeans": 7.706564944298563,
+      "spring_barley": 3.073947134086836,
+      "spring_rapeseed_rape": 2.6565405096836177,
+      "spring_wheat": 2.674491926713414
+    },
+    "S2-L2A-B11@12": {
+      "Other": 1.8640059288542425,
+      "barley": 0.23774080604052777,
+      "maize": 9.511522838839142,
+      "rapeseed_rape": 0.5187880385734442,
+      "rye": 0.03229723433666473,
+      "soy_soybeans": 10.3947298969161,
+      "spring_barley": 3.073947134086836,
+      "spring_rapeseed_rape": 2.6565405096836177,
+      "spring_wheat": 2.674491926713414
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.22033898305084745,
+      "barley": 0.020265291083271922,
+      "maize": 0.018422991893883568,
+      "rapeseed_rape": 0.079587324981577,
+      "rye": 0.0397936624907885,
+      "soy_soybeans": 0.004421518054532056,
+      "spring_barley": 0.14038319823139278,
+      "spring_rapeseed_rape": 0.015843773028739867,
+      "spring_wheat": 0.13154016212232866,
+      "wheat": 0.32940309506263815
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/wheat/LVA_wheat_prototypes.npz"
+}

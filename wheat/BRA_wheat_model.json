@@ -1,0 +1,94 @@
+{
+  "country": "BRA",
+  "crop": "wheat",
+  "extent": [
+    "BRA"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 0,
+      "fisher_score": 0.5012884140014648,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 14,
+      "fisher_score": 9.65123176574707,
+      "source": "literature"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 17,
+      "fisher_score": 9.65123176574707,
+      "source": "literature"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 11,
+      "fisher_score": 2.268965005874634,
+      "source": "literature"
+    }
+  ],
+  "n_candidates_above_floor": 4,
+  "n_selected": 4,
+  "n_positive_train_samples": 111,
+  "n_negative_train_samples": 211,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@0": 111,
+    "GCVI@14": 111,
+    "GCVI@17": 111,
+    "GCVI@11": 111
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@0": {
+      "Other": 0.030288943977579807,
+      "maize": 0.2681650993305704,
+      "rice": 0.9957978759835184,
+      "sorghum": 0.18029507320347224,
+      "soy_soybeans": 1.1460572906091158,
+      "sunflower": 4.191293104396397
+    },
+    "GCVI@14": {
+      "Other": 6.8369325353057935,
+      "maize": 10.798741976762154,
+      "rice": 20.951513077267215,
+      "sorghum": 13.174704308651247,
+      "soy_soybeans": 10.64544482366404,
+      "sunflower": 20.159400895807984
+    },
+    "GCVI@17": {
+      "Other": 6.8369325353057935,
+      "maize": 10.798741976762154,
+      "rice": 20.951513077267215,
+      "sorghum": 13.174704308651247,
+      "soy_soybeans": 10.64544482366404,
+      "sunflower": 20.159400895807984
+    },
+    "GCVI@11": {
+      "Other": 1.402609985817425,
+      "maize": 2.399045093073309,
+      "rice": 4.985554205269269,
+      "sorghum": 6.9394193917347184,
+      "soy_soybeans": 2.7095755885894475,
+      "sunflower": 4.041205440659089
+    }
+  },
+  "split_relationship": "same_parent",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.01557632398753894,
+      "maize": 0.367601246105919,
+      "rice": 0.03115264797507788,
+      "sorghum": 0.018691588785046728,
+      "soy_soybeans": 0.2118380062305296,
+      "sunflower": 0.009345794392523364,
+      "wheat": 0.34579439252336447
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/wheat/BRA_wheat_prototypes.npz"
+}

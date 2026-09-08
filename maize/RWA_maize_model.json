@@ -1,0 +1,164 @@
+{
+  "country": "RWA",
+  "crop": "maize",
+  "extent": [
+    "RWA"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 3,
+      "fisher_score": 0.05168949067592621,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 0,
+      "fisher_score": 0.4368384778499603,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "REP",
+      "t_position": 0,
+      "fisher_score": 0.305326908826828,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 0,
+      "fisher_score": 0.674762487411499,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 3,
+      "fisher_score": 0.5896521806716919,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 0,
+      "fisher_score": 0.5868874788284302,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 3,
+      "fisher_score": 0.5868874788284302,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 6,
+      "fisher_score": 0.46435874700546265,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 6,
+      "fisher_score": 0.3464631140232086,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 0,
+      "fisher_score": 0.3089544177055359,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 3,
+  "n_selected": 10,
+  "n_positive_train_samples": 144,
+  "n_negative_train_samples": 170,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@3": 144,
+    "MCARI@0": 144,
+    "REP@0": 144,
+    "S2-L2A-B11@0": 144,
+    "S2-L2A-B11@3": 144,
+    "S2-L2A-B12@0": 144,
+    "S2-L2A-B12@3": 144,
+    "S2-L2A-B12@6": 144,
+    "S2-L2A-B11@6": 144,
+    "S2-L2A-B05@0": 144
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@3": {
+      "Other": 0.5463090946005873,
+      "rice": 0.56055237320962,
+      "sorghum": 0.47690029218252467,
+      "soy_soybeans": 0.2635446833155003
+    },
+    "MCARI@0": {
+      "Other": 0.41532837904199327,
+      "rice": 0.5120848291728228,
+      "sorghum": 0.0459619680063831,
+      "soy_soybeans": 0.7399709318545034
+    },
+    "REP@0": {
+      "Other": 0.2703341726655729,
+      "rice": 0.19063534885177685,
+      "sorghum": 0.6502881756436928,
+      "soy_soybeans": 0.5696743540523457
+    },
+    "S2-L2A-B11@0": {
+      "Other": 0.3932395844642891,
+      "rice": 2.3679256833639055,
+      "sorghum": 0.13592377854758156,
+      "soy_soybeans": 0.7453318832717204
+    },
+    "S2-L2A-B11@3": {
+      "Other": 0.21728061661429326,
+      "rice": 2.7481165510324344,
+      "sorghum": 0.19652019860426567,
+      "soy_soybeans": 0.7453318832717204
+    },
+    "S2-L2A-B12@0": {
+      "Other": 0.3331373853752545,
+      "rice": 1.5640360263324449,
+      "sorghum": 0.08718195845646683,
+      "soy_soybeans": 0.891280630325024
+    },
+    "S2-L2A-B12@3": {
+      "Other": 0.29958982558007263,
+      "rice": 2.472005080812485,
+      "sorghum": 0.2043271601680837,
+      "soy_soybeans": 0.891280630325024
+    },
+    "S2-L2A-B12@6": {
+      "Other": 0.2527482766719804,
+      "rice": 2.4760548458875045,
+      "sorghum": 0.3915212040233374,
+      "soy_soybeans": 0.6466160804010677
+    },
+    "S2-L2A-B11@6": {
+      "Other": 0.06419936143720648,
+      "rice": 3.1430009516375508,
+      "sorghum": 0.5218508715127047,
+      "soy_soybeans": 0.5620409640883421
+    },
+    "S2-L2A-B05@0": {
+      "Other": 0.1365140357759842,
+      "rice": 0.4409993886061705,
+      "sorghum": 0.09278621175236995,
+      "soy_soybeans": 0.5873747722250635
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.21019108280254778,
+      "maize": 0.4585987261146497,
+      "rice": 0.1305732484076433,
+      "sorghum": 0.03503184713375796,
+      "soy_soybeans": 0.16560509554140126
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/maize/RWA_maize_prototypes.npz"
+}

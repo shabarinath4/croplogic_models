@@ -1,0 +1,217 @@
+{
+  "country": "LTU",
+  "crop": "maize",
+  "extent": [
+    "LTU"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 18,
+      "fisher_score": 1.0210155248641968,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 18,
+      "fisher_score": 1.8978300094604492,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 15,
+      "fisher_score": 1.4122381210327148,
+      "source": "literature"
+    },
+    {
+      "band": "REP",
+      "t_position": 16,
+      "fisher_score": 0.8852718472480774,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 8,
+      "fisher_score": 2.537696361541748,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 11,
+      "fisher_score": 2.537696361541748,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 9,
+      "fisher_score": 2.2680094242095947,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 12,
+      "fisher_score": 2.2680094242095947,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 9,
+      "fisher_score": 1.762808918952942,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 12,
+      "fisher_score": 1.762808918952942,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 18,
+      "fisher_score": 1.6417914628982544,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 8,
+      "fisher_score": 1.6010594367980957,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 11,
+      "fisher_score": 1.6010594367980957,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 9,
+      "fisher_score": 1.590491771697998,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 12,
+      "fisher_score": 1.590491771697998,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 14,
+      "fisher_score": 1.5659102201461792,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 18,
+      "fisher_score": 1.5039470195770264,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 6,
+  "n_selected": 17,
+  "n_positive_train_samples": 79,
+  "n_negative_train_samples": 971,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@18": 79,
+    "MCARI@18": 79,
+    "MCARI@15": 79,
+    "REP@16": 79,
+    "NDVI@8": 79,
+    "NDVI@11": 79,
+    "S2-L2A-B12@9": 79,
+    "S2-L2A-B12@12": 79,
+    "S2-L2A-B11@9": 79,
+    "S2-L2A-B11@12": 79,
+    "S2-L2A-B11@18": 79,
+    "GCVI@8": 79,
+    "GCVI@11": 79,
+    "NDYI@9": 79,
+    "NDYI@12": 79,
+    "NDVI@14": 79,
+    "S2-L2A-B05@18": 79
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@18": {
+      "Other": 1.264411562510833,
+      "rapeseed_rape": 1.214827322033563
+    },
+    "MCARI@18": {
+      "Other": 2.1772191758449453,
+      "rapeseed_rape": 7.614652190397064
+    },
+    "MCARI@15": {
+      "Other": 2.0516480035493316,
+      "rapeseed_rape": 7.246040328564851
+    },
+    "REP@16": {
+      "Other": 0.5530241932380948,
+      "rapeseed_rape": 1.000264884188029
+    },
+    "NDVI@8": {
+      "Other": 2.6556981711223875,
+      "rapeseed_rape": 8.894896281557768
+    },
+    "NDVI@11": {
+      "Other": 2.6556981711223875,
+      "rapeseed_rape": 8.894896281557768
+    },
+    "S2-L2A-B12@9": {
+      "Other": 2.253763180061002,
+      "rapeseed_rape": 5.754426583051918
+    },
+    "S2-L2A-B12@12": {
+      "Other": 2.253763180061002,
+      "rapeseed_rape": 5.754426583051918
+    },
+    "S2-L2A-B11@9": {
+      "Other": 1.6637488720809084,
+      "rapeseed_rape": 5.876682294314067
+    },
+    "S2-L2A-B11@12": {
+      "Other": 1.6637488720809084,
+      "rapeseed_rape": 6.0305916665788875
+    },
+    "S2-L2A-B11@18": {
+      "Other": 1.8905128304679282,
+      "rapeseed_rape": 2.7453539472133572
+    },
+    "GCVI@8": {
+      "Other": 1.644330902899659,
+      "rapeseed_rape": 6.554556482577201
+    },
+    "GCVI@11": {
+      "Other": 1.644330902899659,
+      "rapeseed_rape": 6.554556482577201
+    },
+    "NDYI@9": {
+      "Other": 1.618632523579684,
+      "rapeseed_rape": 5.384384526911308
+    },
+    "NDYI@12": {
+      "Other": 1.618632523579684,
+      "rapeseed_rape": 5.384384526911308
+    },
+    "NDVI@14": {
+      "Other": 1.3181814068630082,
+      "rapeseed_rape": 3.619089421513654
+    },
+    "S2-L2A-B05@18": {
+      "Other": 1.7564515069611015,
+      "rapeseed_rape": 4.783927384750047
+    }
+  },
+  "split_relationship": "same_parent",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.7736976942783945,
+      "maize": 0.033304867634500426,
+      "rapeseed_rape": 0.19299743808710504
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/maize/LTU_maize_prototypes.npz"
+}

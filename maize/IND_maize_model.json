@@ -1,0 +1,567 @@
+{
+  "country": "IND",
+  "crop": "maize",
+  "extent": [
+    "IND"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 5,
+      "fisher_score": 0.027853453531861305,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 15,
+      "fisher_score": 0.082095205783844,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "REP",
+      "t_position": 13,
+      "fisher_score": 0.02404550090432167,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 15,
+      "fisher_score": 0.14084433019161224,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 18,
+      "fisher_score": 0.14084433019161224,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 18,
+      "fisher_score": 0.130366250872612,
+      "source": "discovered"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 16,
+      "fisher_score": 0.12883487343788147,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 15,
+      "fisher_score": 0.11020456999540329,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 18,
+      "fisher_score": 0.11020456999540329,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B02",
+      "t_position": 15,
+      "fisher_score": 0.10209330171346664,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B02",
+      "t_position": 18,
+      "fisher_score": 0.10209330171346664,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 15,
+      "fisher_score": 0.09034242480993271,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 18,
+      "fisher_score": 0.09034242480993271,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 10,
+      "fisher_score": 0.08380506932735443,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 13,
+      "fisher_score": 0.08380506932735443,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 15,
+      "fisher_score": 0.07738121598958969,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 18,
+      "fisher_score": 0.07738121598958969,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 15,
+      "fisher_score": 0.07714591175317764,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 18,
+      "fisher_score": 0.07714591175317764,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 18,
+      "fisher_score": 0.07445434480905533,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 12,
+      "fisher_score": 0.0710117295384407,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 15,
+      "fisher_score": 0.06915180385112762,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 12,
+      "fisher_score": 0.0680258721113205,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 13,
+      "fisher_score": 0.05908298119902611,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 16,
+      "fisher_score": 0.05908298119902611,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 16,
+      "fisher_score": 0.05890904739499092,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 14,
+      "fisher_score": 0.05726247653365135,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 12,
+      "fisher_score": 0.05640039220452309,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 12,
+      "fisher_score": 0.054696615785360336,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 10,
+      "fisher_score": 0.05170983448624611,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 13,
+      "fisher_score": 0.05170983448624611,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 3,
+      "fisher_score": 0.05066291615366936,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 6,
+      "fisher_score": 0.05066291615366936,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 2,
+      "fisher_score": 0.05030081048607826,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 5,
+      "fisher_score": 0.05030081048607826,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 13,
+      "fisher_score": 0.048330213874578476,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 16,
+      "fisher_score": 0.048330213874578476,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 5,
+      "fisher_score": 0.04751693829894066,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 8,
+      "fisher_score": 0.04751693829894066,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 3,
+      "fisher_score": 0.046661872416734695,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 6,
+      "fisher_score": 0.046661872416734695,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 3,
+  "n_selected": 41,
+  "n_positive_train_samples": 352,
+  "n_negative_train_samples": 1056,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@5": 352,
+    "MCARI@15": 352,
+    "REP@13": 352,
+    "S2-L2A-B11@15": 352,
+    "S2-L2A-B11@18": 352,
+    "S2-L2A-B05@18": 352,
+    "NDYI@16": 352,
+    "S2-L2A-B12@15": 352,
+    "S2-L2A-B12@18": 352,
+    "S2-L2A-B02@15": 352,
+    "S2-L2A-B02@18": 352,
+    "GCVI@15": 352,
+    "GCVI@18": 352,
+    "S1-SIGMA0-VV@10": 352,
+    "S1-SIGMA0-VV@13": 352,
+    "NDVI@15": 352,
+    "NDVI@18": 352,
+    "S2-L2A-B03@15": 352,
+    "S2-L2A-B03@18": 352,
+    "S2-L2A-B04@18": 352,
+    "S2-L2A-B11@12": 352,
+    "S2-L2A-B04@15": 352,
+    "S2-L2A-B12@12": 352,
+    "S2-L2A-B08@13": 352,
+    "S2-L2A-B08@16": 352,
+    "S1-SIGMA0-VV@16": 352,
+    "S2-L2A-B05@14": 352,
+    "NDVI@12": 352,
+    "GCVI@12": 352,
+    "MNDWI@10": 352,
+    "MNDWI@13": 352,
+    "NDVI@3": 352,
+    "NDVI@6": 352,
+    "S2-L2A-B05@2": 352,
+    "S2-L2A-B05@5": 352,
+    "S2-L2A-B07@13": 352,
+    "S2-L2A-B07@16": 352,
+    "S2-L2A-B8A@5": 352,
+    "S2-L2A-B8A@8": 352,
+    "S2-L2A-B04@3": 352,
+    "S2-L2A-B04@6": 352
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@5": {
+      "Other": 0.41723941313878943,
+      "millet": 0.0009647423985249113,
+      "rice": 0.237855232736357,
+      "wheat": 0.059207874636493046
+    },
+    "MCARI@15": {
+      "Other": 0.724124098397879,
+      "millet": 0.10307366565709747,
+      "rice": 0.6004529767512089,
+      "wheat": 0.5638782462522964
+    },
+    "REP@13": {
+      "Other": 0.41530349936548816,
+      "millet": 0.008167887284927528,
+      "rice": 0.1858251111385847,
+      "wheat": 0.08996289264844168
+    },
+    "S2-L2A-B11@15": {
+      "Other": 0.48968081898476223,
+      "millet": 0.05133395127694762,
+      "rice": 0.32397547729266063,
+      "wheat": 0.9410460779136995
+    },
+    "S2-L2A-B11@18": {
+      "Other": 0.11479388274241115,
+      "millet": 0.05133395127694762,
+      "rice": 0.32397547729266063,
+      "wheat": 0.9410460779136995
+    },
+    "S2-L2A-B05@18": {
+      "Other": 0.24584465487000234,
+      "millet": 0.10857588764113522,
+      "rice": 0.4127135626107531,
+      "wheat": 0.445323767335986
+    },
+    "NDYI@16": {
+      "Other": 0.217619811257283,
+      "millet": 0.022431216960678887,
+      "rice": 0.9370286873852507,
+      "wheat": 0.39743688588329906
+    },
+    "S2-L2A-B12@15": {
+      "Other": 0.29419529800623795,
+      "millet": 0.0919153727170691,
+      "rice": 0.6186075206782113,
+      "wheat": 0.7022491655164769
+    },
+    "S2-L2A-B12@18": {
+      "Other": 0.04367050966702676,
+      "millet": 0.0919153727170691,
+      "rice": 0.6186075206782113,
+      "wheat": 0.7022491655164769
+    },
+    "S2-L2A-B02@15": {
+      "Other": 0.5054073030751436,
+      "millet": 0.02270483829376372,
+      "rice": 0.5885183245324189,
+      "wheat": 0.40549280792952835
+    },
+    "S2-L2A-B02@18": {
+      "Other": 0.4055955767403715,
+      "millet": 0.02270483829376372,
+      "rice": 0.5885183245324189,
+      "wheat": 0.40549280792952835
+    },
+    "GCVI@15": {
+      "Other": 0.3332035030472374,
+      "millet": 0.1339662312976192,
+      "rice": 0.5067984549352196,
+      "wheat": 0.4926628188212463
+    },
+    "GCVI@18": {
+      "Other": 0.15997471839790095,
+      "millet": 0.1339662312976192,
+      "rice": 0.5067984549352196,
+      "wheat": 0.4926628188212463
+    },
+    "S1-SIGMA0-VV@10": {
+      "Other": 0.40375449309514155,
+      "millet": 0.02734623775130409,
+      "rice": 0.4004673638329222,
+      "wheat": 0.21606633055354096
+    },
+    "S1-SIGMA0-VV@13": {
+      "Other": 0.7481282702896054,
+      "millet": 0.016700141917269904,
+      "rice": 0.2754199573000675,
+      "wheat": 0.313772338277693
+    },
+    "NDVI@15": {
+      "Other": 0.10600440438287936,
+      "millet": 0.13046740229605275,
+      "rice": 0.8009923137667355,
+      "wheat": 0.5521155708474397
+    },
+    "NDVI@18": {
+      "Other": 0.11962708427042903,
+      "millet": 0.13046740229605275,
+      "rice": 0.8009923137667355,
+      "wheat": 0.5521155708474397
+    },
+    "S2-L2A-B03@15": {
+      "Other": 0.8338997934993964,
+      "millet": 0.03584777126078339,
+      "rice": 0.3955164901397118,
+      "wheat": 0.39009458186129686
+    },
+    "S2-L2A-B03@18": {
+      "Other": 0.27485720875887826,
+      "millet": 0.03584777126078339,
+      "rice": 0.3955164901397118,
+      "wheat": 0.39009458186129686
+    },
+    "S2-L2A-B04@18": {
+      "Other": 0.08806368983712413,
+      "millet": 0.11637372178048108,
+      "rice": 0.7131227348684321,
+      "wheat": 0.48802267727021365
+    },
+    "S2-L2A-B11@12": {
+      "Other": 1.1440189969866124,
+      "millet": 0.08032111206793682,
+      "rice": 0.22047292018776776,
+      "wheat": 0.5355494952746278
+    },
+    "S2-L2A-B04@15": {
+      "Other": 0.32123327791913736,
+      "millet": 0.11637372178048108,
+      "rice": 0.7131227348684321,
+      "wheat": 0.48802267727021365
+    },
+    "S2-L2A-B12@12": {
+      "Other": 0.8775723983858079,
+      "millet": 0.08269477156260752,
+      "rice": 0.34336757359730796,
+      "wheat": 0.5526774127635612
+    },
+    "S2-L2A-B08@13": {
+      "Other": 0.15171848524093634,
+      "millet": 0.05099326044437143,
+      "rice": 0.30875086092438,
+      "wheat": 0.3522000312569866
+    },
+    "S2-L2A-B08@16": {
+      "Other": 0.08378520533981511,
+      "millet": 0.0930572046312163,
+      "rice": 0.5978868918308365,
+      "wheat": 0.3522000312569866
+    },
+    "S1-SIGMA0-VV@16": {
+      "Other": 0.7481282702896054,
+      "millet": 0.0070259907349165575,
+      "rice": 0.006601729888105403,
+      "wheat": 0.313772338277693
+    },
+    "S2-L2A-B05@14": {
+      "Other": 0.7447801451384972,
+      "millet": 0.10857588764113522,
+      "rice": 0.4127135626107531,
+      "wheat": 0.445323767335986
+    },
+    "NDVI@12": {
+      "Other": 0.130981898913401,
+      "millet": 0.08004532320354095,
+      "rice": 0.6425475571172052,
+      "wheat": 0.5035355367317629
+    },
+    "GCVI@12": {
+      "Other": 0.3332035030472374,
+      "millet": 0.06801574016410233,
+      "rice": 0.45415092536682794,
+      "wheat": 0.34965482863044867
+    },
+    "MNDWI@10": {
+      "Other": 0.10050740721043086,
+      "millet": 0.07268555201130461,
+      "rice": 1.030829879589516,
+      "wheat": 0.07210741257038703
+    },
+    "MNDWI@13": {
+      "Other": 0.2999912515720552,
+      "millet": 0.05793700988387593,
+      "rice": 1.030829879589516,
+      "wheat": 0.07210741257038703
+    },
+    "NDVI@3": {
+      "Other": 1.2412227694441493,
+      "millet": 0.005178639701033471,
+      "rice": 0.582381952541785,
+      "wheat": 0.15923558562168963
+    },
+    "NDVI@6": {
+      "Other": 1.2412227694441493,
+      "millet": 0.005178639701033471,
+      "rice": 0.36766967120178107,
+      "wheat": 0.15923558562168963
+    },
+    "S2-L2A-B05@2": {
+      "Other": 1.80576584603608,
+      "millet": 0.010625895476668874,
+      "rice": 0.4855128539538665,
+      "wheat": 0.09180524770883308
+    },
+    "S2-L2A-B05@5": {
+      "Other": 1.80576584603608,
+      "millet": 0.014418920694469262,
+      "rice": 0.4855128539538665,
+      "wheat": 0.1857860481935803
+    },
+    "S2-L2A-B07@13": {
+      "Other": 0.32449552265910653,
+      "millet": 0.07663010821523414,
+      "rice": 0.2813563601108635,
+      "wheat": 0.3073242207938064
+    },
+    "S2-L2A-B07@16": {
+      "Other": 0.17072698735333314,
+      "millet": 0.11035333000814833,
+      "rice": 0.660711661857446,
+      "wheat": 0.3073242207938064
+    },
+    "S2-L2A-B8A@5": {
+      "Other": 0.19429563006851805,
+      "millet": 0.02089653392331255,
+      "rice": 0.12820713506396494,
+      "wheat": 0.3664749688186086
+    },
+    "S2-L2A-B8A@8": {
+      "Other": 0.28749392863353107,
+      "millet": 0.018389560097043962,
+      "rice": 0.12404299423577275,
+      "wheat": 0.3664749688186086
+    },
+    "S2-L2A-B04@3": {
+      "Other": 2.231765136377033,
+      "millet": 0.003048248900782556,
+      "rice": 0.7114891955978371,
+      "wheat": 0.11339458929191154
+    },
+    "S2-L2A-B04@6": {
+      "Other": 2.231765136377033,
+      "millet": 0.0049923555673111585,
+      "rice": 0.5387165317496478,
+      "wheat": 0.10698310647091903
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.01278409090909091,
+      "maize": 0.25,
+      "millet": 0.2649147727272727,
+      "rice": 0.10724431818181818,
+      "wheat": 0.3650568181818182
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/maize/IND_maize_prototypes.npz"
+}

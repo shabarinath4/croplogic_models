@@ -1,0 +1,99 @@
+{
+  "country": "SA",
+  "crop": "maize",
+  "extent": [
+    "SA"
+  ],
+  "status": "ok",
+  "min_fisher_floor": 1.0,
+  "selected_windows": [
+    {
+      "band": "S1-SIGMA0-VH",
+      "t_position": 0,
+      "fisher_score": 0.32501867413520813,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "MCARI",
+      "t_position": 0,
+      "fisher_score": 0.2531953752040863,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "REP",
+      "t_position": 0,
+      "fisher_score": 0.08689087629318237,
+      "forced_literature_default": true,
+      "source": "literature"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 0,
+      "fisher_score": 0.2622961699962616,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 10,
+      "fisher_score": 0.26103949546813965,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 13,
+      "fisher_score": 0.26103949546813965,
+      "source": "discovered"
+    }
+  ],
+  "n_candidates_above_floor": 3,
+  "n_selected": 6,
+  "n_positive_train_samples": 38,
+  "n_negative_train_samples": 31,
+  "n_positive_prototypes": {
+    "S1-SIGMA0-VH@0": 38,
+    "MCARI@0": 38,
+    "REP@0": 38,
+    "S1-SIGMA0-VV@0": 38,
+    "S2-L2A-B05@10": 38,
+    "S2-L2A-B05@13": 38
+  },
+  "crop_confusion_matrix": {
+    "S1-SIGMA0-VH@0": {
+      "soy_soybeans": 0.3493773528839619,
+      "sunflower": 0.22078483022526124
+    },
+    "MCARI@0": {
+      "soy_soybeans": 0.3815499929850127,
+      "sunflower": 0.020819476477309445
+    },
+    "REP@0": {
+      "soy_soybeans": 0.15292144554092812,
+      "sunflower": 0.06846718548812226
+    },
+    "S1-SIGMA0-VV@0": {
+      "soy_soybeans": 0.20613916195055437,
+      "sunflower": 0.8469673899136885
+    },
+    "S2-L2A-B05@10": {
+      "soy_soybeans": 0.3408941981951603,
+      "sunflower": 0.7368152413372597
+    },
+    "S2-L2A-B05@13": {
+      "soy_soybeans": 0.3408941981951603,
+      "sunflower": 0.7368152413372597
+    }
+  },
+  "split_relationship": "different_parents",
+  "country_stats": {
+    "crop_proportions": {
+      "Other": 0.014492753623188406,
+      "maize": 0.5507246376811594,
+      "soy_soybeans": 0.37681159420289856,
+      "sunflower": 0.057971014492753624
+    }
+  },
+  "recommendation": "Window/prototype approach is viable for this country/crop.",
+  "prototypes_path": "country_models/maize/SA_maize_prototypes.npz"
+}
