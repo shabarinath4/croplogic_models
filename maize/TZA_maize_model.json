@@ -9,511 +9,666 @@
   "selected_windows": [
     {
       "band": "S1-SIGMA0-VH",
-      "t_position": 0,
-      "fisher_score": 0.14703544974327087,
+      "t_position": 4,
+      "fisher_score": 0.2791875898838043,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "MCARI",
-      "t_position": 16,
-      "fisher_score": 0.17290571331977844,
+      "t_position": 27,
+      "fisher_score": 0.4108446538448334,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "REP",
       "t_position": 10,
-      "fisher_score": 0.046516984701156616,
+      "fisher_score": 0.057352464646101,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
-      "band": "NDYI",
-      "t_position": 6,
-      "fisher_score": 0.2868269383907318,
-      "source": "discovered"
-    },
-    {
-      "band": "NDYI",
-      "t_position": 9,
-      "fisher_score": 0.2868269383907318,
-      "source": "discovered"
-    },
-    {
-      "band": "NDYI",
-      "t_position": 2,
-      "fisher_score": 0.2307511866092682,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B05",
-      "t_position": 17,
-      "fisher_score": 0.22115634381771088,
+      "band": "S2-L2A-B04",
+      "t_position": 26,
+      "fisher_score": 0.40266546607017517,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B04",
-      "t_position": 16,
-      "fisher_score": 0.2047998458147049,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B04",
-      "t_position": 0,
-      "fisher_score": 0.1866944134235382,
+      "t_position": 29,
+      "fisher_score": 0.40266546607017517,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B05",
-      "t_position": 14,
-      "fisher_score": 0.18033237755298615,
+      "t_position": 30,
+      "fisher_score": 0.3915156424045563,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 26,
+      "fisher_score": 0.38732150197029114,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
-      "t_position": 0,
-      "fisher_score": 0.17557469010353088,
+      "t_position": 4,
+      "fisher_score": 0.36811697483062744,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B11",
-      "t_position": 0,
-      "fisher_score": 0.17318865656852722,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B05",
-      "t_position": 0,
-      "fisher_score": 0.17109890282154083,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B05",
-      "t_position": 3,
-      "fisher_score": 0.15225279331207275,
+      "band": "S2-L2A-B12",
+      "t_position": 7,
+      "fisher_score": 0.36811697483062744,
       "source": "discovered"
     },
     {
       "band": "NDVI",
-      "t_position": 0,
-      "fisher_score": 0.15194229781627655,
+      "t_position": 26,
+      "fisher_score": 0.36764636635780334,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B11",
-      "t_position": 3,
-      "fisher_score": 0.1505717784166336,
+      "band": "NDVI",
+      "t_position": 29,
+      "fisher_score": 0.36764636635780334,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B04",
-      "t_position": 13,
-      "fisher_score": 0.14638954401016235,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B06",
       "t_position": 3,
-      "fisher_score": 0.14433805644512177,
+      "fisher_score": 0.36181727051734924,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B06",
+      "band": "S2-L2A-B04",
       "t_position": 6,
-      "fisher_score": 0.14433805644512177,
+      "fisher_score": 0.36181727051734924,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B05",
-      "t_position": 11,
-      "fisher_score": 0.14326049387454987,
+      "t_position": 2,
+      "fisher_score": 0.34671133756637573,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B08",
-      "t_position": 3,
-      "fisher_score": 0.13982316851615906,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B08",
-      "t_position": 6,
-      "fisher_score": 0.13982316851615906,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B06",
-      "t_position": 9,
-      "fisher_score": 0.1380349099636078,
+      "band": "S2-L2A-B05",
+      "t_position": 5,
+      "fisher_score": 0.34671133756637573,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B11",
-      "t_position": 15,
-      "fisher_score": 0.13740548491477966,
+      "t_position": 4,
+      "fisher_score": 0.34207603335380554,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B11",
-      "t_position": 18,
-      "fisher_score": 0.13740548491477966,
+      "t_position": 7,
+      "fisher_score": 0.34207603335380554,
       "source": "discovered"
     },
     {
-      "band": "NDYI",
-      "t_position": 12,
-      "fisher_score": 0.1373901069164276,
+      "band": "S2-L2A-B04",
+      "t_position": 0,
+      "fisher_score": 0.31533944606781006,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B05",
+      "t_position": 8,
+      "fisher_score": 0.30472254753112793,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 26,
+      "fisher_score": 0.29173776507377625,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 29,
+      "fisher_score": 0.29173776507377625,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
-      "t_position": 15,
-      "fisher_score": 0.1301337331533432,
+      "t_position": 26,
+      "fisher_score": 0.27682802081108093,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
-      "t_position": 18,
-      "fisher_score": 0.1301337331533432,
+      "t_position": 29,
+      "fisher_score": 0.27682802081108093,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B08",
+      "band": "S2-L2A-B04",
       "t_position": 9,
-      "fisher_score": 0.12838114798069,
+      "fisher_score": 0.2766462564468384,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B07",
-      "t_position": 3,
-      "fisher_score": 0.127719908952713,
+      "band": "S2-L2A-B04",
+      "t_position": 23,
+      "fisher_score": 0.2715526223182678,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B07",
-      "t_position": 6,
-      "fisher_score": 0.127719908952713,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B12",
-      "t_position": 3,
-      "fisher_score": 0.12506937980651855,
+      "band": "S2-L2A-B05",
+      "t_position": 23,
+      "fisher_score": 0.2555924654006958,
       "source": "discovered"
     }
   ],
   "n_candidates_above_floor": 3,
-  "n_selected": 32,
-  "n_positive_train_samples": 199,
-  "n_negative_train_samples": 358,
+  "n_selected": 26,
+  "n_positive_train_samples": 146,
+  "n_negative_train_samples": 281,
   "n_positive_prototypes": {
-    "S1-SIGMA0-VH@0": 199,
-    "MCARI@16": 199,
-    "REP@10": 199,
-    "NDYI@6": 199,
-    "NDYI@9": 199,
-    "NDYI@2": 199,
-    "S2-L2A-B05@17": 199,
-    "S2-L2A-B04@16": 199,
-    "S2-L2A-B04@0": 199,
-    "S2-L2A-B05@14": 199,
-    "S2-L2A-B12@0": 199,
-    "S2-L2A-B11@0": 199,
-    "S2-L2A-B05@0": 199,
-    "S2-L2A-B05@3": 199,
-    "NDVI@0": 199,
-    "S2-L2A-B11@3": 199,
-    "S2-L2A-B04@13": 199,
-    "S2-L2A-B06@3": 199,
-    "S2-L2A-B06@6": 199,
-    "S2-L2A-B05@11": 199,
-    "S2-L2A-B08@3": 199,
-    "S2-L2A-B08@6": 199,
-    "S2-L2A-B06@9": 199,
-    "S2-L2A-B11@15": 199,
-    "S2-L2A-B11@18": 199,
-    "NDYI@12": 199,
-    "S2-L2A-B12@15": 199,
-    "S2-L2A-B12@18": 199,
-    "S2-L2A-B08@9": 199,
-    "S2-L2A-B07@3": 199,
-    "S2-L2A-B07@6": 199,
-    "S2-L2A-B12@3": 199
+    "S1-SIGMA0-VH@4": 146,
+    "MCARI@27": 146,
+    "REP@10": 146,
+    "S2-L2A-B04@26": 146,
+    "S2-L2A-B04@29": 146,
+    "S2-L2A-B05@30": 146,
+    "S2-L2A-B05@26": 146,
+    "S2-L2A-B12@4": 146,
+    "S2-L2A-B12@7": 146,
+    "NDVI@26": 146,
+    "NDVI@29": 146,
+    "S2-L2A-B04@3": 146,
+    "S2-L2A-B04@6": 146,
+    "S2-L2A-B05@2": 146,
+    "S2-L2A-B05@5": 146,
+    "S2-L2A-B11@4": 146,
+    "S2-L2A-B11@7": 146,
+    "S2-L2A-B04@0": 146,
+    "S2-L2A-B05@8": 146,
+    "S2-L2A-B11@26": 146,
+    "S2-L2A-B11@29": 146,
+    "S2-L2A-B12@26": 146,
+    "S2-L2A-B12@29": 146,
+    "S2-L2A-B04@9": 146,
+    "S2-L2A-B04@23": 146,
+    "S2-L2A-B05@23": 146
   },
   "crop_confusion_matrix": {
-    "S1-SIGMA0-VH@0": {
-      "Other": 0.0018317090729326317,
-      "barley": 0.34598607492329925,
-      "millet": 0.6323339733289424,
-      "rice": 0.8278155744146601,
-      "sorghum": 1.0590324931144706,
-      "sunflower": 0.3145299955036739
+    "S1-SIGMA0-VH@4": {
+      "Other": 0.018603979390314815,
+      "barley": 0.313722703215639,
+      "millet": 0.689791023569933,
+      "rice": 1.3268880023271583,
+      "sorghum": 1.4568062884151094,
+      "sunflower": 0.306267902493465
     },
-    "MCARI@16": {
-      "Other": 0.0355445210356838,
-      "barley": 4.661297627287505,
-      "millet": 1.0748161766817694,
-      "rice": 0.35888765459051897,
-      "sorghum": 0.9889384504707164,
-      "sunflower": 0.6736890060901071
+    "MCARI@27": {
+      "Other": 0.12209063819688375,
+      "barley": 2.4104726964220196,
+      "millet": 0.5429068244780919,
+      "rice": 1.1666359949600689,
+      "sorghum": 1.0401403594928542,
+      "sunflower": 0.7230804440619615
     },
     "REP@10": {
-      "Other": 0.007365193332634532,
-      "barley": 0.07917815427048089,
-      "millet": 0.13948375806723096,
-      "rice": 0.07922392908564192,
-      "sorghum": 0.2190000443524493,
-      "sunflower": 0.15836216250066243
+      "Other": 0.005694660469573543,
+      "barley": 0.5856527701804022,
+      "millet": 0.04568700593031222,
+      "rice": 0.8823268245427158,
+      "sorghum": 0.32947999347866486,
+      "sunflower": 0.09839102739326545
     },
-    "NDYI@6": {
-      "Other": 0.006061677061766136,
-      "barley": 0.31707403130823153,
-      "millet": 0.07160155011749428,
-      "rice": 0.07797484353009458,
-      "sorghum": 0.04598412527403809,
-      "sunflower": 0.005607433199546804
+    "S2-L2A-B04@26": {
+      "Other": 0.20089518290240332,
+      "barley": 3.7620539534977153,
+      "millet": 0.5221498454017571,
+      "rice": 1.8212500513982408,
+      "sorghum": 1.1770771831578957,
+      "sunflower": 0.5519388179045417
     },
-    "NDYI@9": {
-      "Other": 0.003919181021966981,
-      "barley": 0.31707403130823153,
-      "millet": 0.07160155011749428,
-      "rice": 0.1303619893365596,
-      "sorghum": 0.04773704778912871,
-      "sunflower": 0.0030967945629811226
+    "S2-L2A-B04@29": {
+      "Other": 0.1801982941969545,
+      "barley": 3.4210078297250006,
+      "millet": 0.5221498454017571,
+      "rice": 2.281924270669498,
+      "sorghum": 1.1770771831578957,
+      "sunflower": 0.5519388179045417
     },
-    "NDYI@2": {
-      "Other": 0.01472530195915233,
-      "barley": 0.956344948179547,
-      "millet": 0.14137349576921782,
-      "rice": 0.5264635938697879,
-      "sorghum": 0.28587446355066615,
-      "sunflower": 0.12347335833302839
+    "S2-L2A-B05@30": {
+      "Other": 0.13959185014190179,
+      "barley": 2.2472313801188633,
+      "millet": 0.8055498681019488,
+      "rice": 1.5476973995409704,
+      "sorghum": 1.209963894538319,
+      "sunflower": 0.4411949285291684
     },
-    "S2-L2A-B05@17": {
-      "Other": 0.05176382736443692,
-      "barley": 5.998777414996615,
-      "millet": 1.589350764786313,
-      "rice": 0.48283735472232725,
-      "sorghum": 1.1665565496159018,
-      "sunflower": 0.4608779927036061
+    "S2-L2A-B05@26": {
+      "Other": 0.17322565762845302,
+      "barley": 3.4425053799258833,
+      "millet": 0.7596998719193939,
+      "rice": 1.1370439376258838,
+      "sorghum": 1.209963894538319,
+      "sunflower": 0.4411949285291684
     },
-    "S2-L2A-B04@16": {
-      "Other": 0.06871671623229991,
-      "barley": 8.012704198971004,
-      "millet": 1.0906246478469792,
-      "rice": 0.8527416323391113,
-      "sorghum": 1.2166654950514233,
-      "sunflower": 0.5432722800231712
+    "S2-L2A-B12@4": {
+      "Other": 0.1120836476929533,
+      "barley": 3.455995032648711,
+      "millet": 1.466295681322547,
+      "rice": 4.629613816536973,
+      "sorghum": 1.7131575597708446,
+      "sunflower": 0.43775699475135244
+    },
+    "S2-L2A-B12@7": {
+      "Other": 0.1120836476929533,
+      "barley": 5.975222347868062,
+      "millet": 1.552119457541027,
+      "rice": 4.53199672090791,
+      "sorghum": 1.7514048153482422,
+      "sunflower": 0.43775699475135244
+    },
+    "NDVI@26": {
+      "Other": 0.14283916367414126,
+      "barley": 2.077594545240575,
+      "millet": 0.23863634346463725,
+      "rice": 1.5521356359382277,
+      "sorghum": 0.7524665002937474,
+      "sunflower": 0.6617711300956861
+    },
+    "NDVI@29": {
+      "Other": 0.1055775672183801,
+      "barley": 2.034483774407371,
+      "millet": 0.31226053262397313,
+      "rice": 2.3457674538823983,
+      "sorghum": 0.7524665002937474,
+      "sunflower": 0.6617711300956861
+    },
+    "S2-L2A-B04@3": {
+      "Other": 0.08707390978098925,
+      "barley": 4.439827739855398,
+      "millet": 1.2124881641625516,
+      "rice": 2.6990301630377056,
+      "sorghum": 1.235520663580171,
+      "sunflower": 0.3394864768140654
+    },
+    "S2-L2A-B04@6": {
+      "Other": 0.10101609442745821,
+      "barley": 7.471998017032074,
+      "millet": 1.653965934335326,
+      "rice": 2.6990301630377056,
+      "sorghum": 1.4263330408654575,
+      "sunflower": 0.3447934278256873
+    },
+    "S2-L2A-B05@2": {
+      "Other": 0.06908902310895658,
+      "barley": 2.7398289607662467,
+      "millet": 0.9315119026000921,
+      "rice": 1.3811866777875101,
+      "sorghum": 1.0270758533001079,
+      "sunflower": 0.27857489844628713
+    },
+    "S2-L2A-B05@5": {
+      "Other": 0.11786373760053603,
+      "barley": 7.316042201328005,
+      "millet": 1.566971844559475,
+      "rice": 1.932191316045604,
+      "sorghum": 1.1889847673860674,
+      "sunflower": 0.3118756350707549
+    },
+    "S2-L2A-B11@4": {
+      "Other": 0.12949485179002596,
+      "barley": 5.432942275931204,
+      "millet": 1.8447394369897976,
+      "rice": 3.8199000858637615,
+      "sorghum": 1.5519920064928914,
+      "sunflower": 0.3693601473286888
+    },
+    "S2-L2A-B11@7": {
+      "Other": 0.12949485179002596,
+      "barley": 6.352167539789699,
+      "millet": 1.8447394369897976,
+      "rice": 4.90793651314701,
+      "sorghum": 1.5519920064928914,
+      "sunflower": 0.3693601473286888
     },
     "S2-L2A-B04@0": {
-      "Other": 0.030368961999007574,
-      "barley": 4.028023677948616,
-      "millet": 1.052918095202954,
-      "rice": 0.8365544751474433,
-      "sorghum": 1.5165287642628167,
-      "sunflower": 0.5743476652970869
+      "Other": 0.045466516792206084,
+      "barley": 1.3510945131488379,
+      "millet": 0.52086264141785,
+      "rice": 2.0774927864260295,
+      "sorghum": 0.8810948703104411,
+      "sunflower": 0.26911078169387453
     },
-    "S2-L2A-B05@14": {
-      "Other": 0.05176382736443692,
-      "barley": 5.274893735769668,
-      "millet": 1.1363156276364503,
-      "rice": 0.40042073579066184,
-      "sorghum": 1.0431299060175112,
-      "sunflower": 0.37953241530622717
+    "S2-L2A-B05@8": {
+      "Other": 0.11936763548391094,
+      "barley": 9.443579151618595,
+      "millet": 1.566971844559475,
+      "rice": 1.932191316045604,
+      "sorghum": 1.1889847673860674,
+      "sunflower": 0.3118756350707549
     },
-    "S2-L2A-B12@0": {
-      "Other": 0.02805392317738018,
-      "barley": 5.864441113320609,
-      "millet": 1.2979256043529819,
-      "rice": 2.058920590518316,
-      "sorghum": 1.4133500550548346,
-      "sunflower": 0.638591632012834
+    "S2-L2A-B11@26": {
+      "Other": 0.1972091509145848,
+      "barley": 5.584280633865275,
+      "millet": 0.49359884177495694,
+      "rice": 4.002295333094,
+      "sorghum": 1.189889740221111,
+      "sunflower": 0.5132656787371419
     },
-    "S2-L2A-B11@0": {
-      "Other": 0.05663443386120605,
-      "barley": 5.927686251030442,
-      "millet": 1.5057769250736035,
-      "rice": 2.484546348270691,
-      "sorghum": 1.3192462435222265,
-      "sunflower": 0.5795227826585858
+    "S2-L2A-B11@29": {
+      "Other": 0.17808125220479354,
+      "barley": 5.141391959064638,
+      "millet": 0.49359884177495694,
+      "rice": 4.67894738769659,
+      "sorghum": 1.189889740221111,
+      "sunflower": 0.5266423059786601
     },
-    "S2-L2A-B05@0": {
-      "Other": 0.05775052123480001,
-      "barley": 5.309064624276457,
-      "millet": 0.8992794401417932,
-      "rice": 1.0317214387055496,
-      "sorghum": 1.14598360571343,
-      "sunflower": 0.46820661107944206
+    "S2-L2A-B12@26": {
+      "Other": 0.19677041616138724,
+      "barley": 6.061853676888198,
+      "millet": 0.34072063163272676,
+      "rice": 4.121644724738468,
+      "sorghum": 0.9291133242472667,
+      "sunflower": 0.532983364864274
     },
-    "S2-L2A-B05@3": {
-      "Other": 0.05775052123480001,
-      "barley": 2.8258659621173705,
-      "millet": 0.8992794401417932,
-      "rice": 0.6417094622707138,
-      "sorghum": 0.7815048632068285,
-      "sunflower": 0.3650556792116916
+    "S2-L2A-B12@29": {
+      "Other": 0.1726089324960513,
+      "barley": 5.7673447617045746,
+      "millet": 0.34072063163272676,
+      "rice": 4.831998543306198,
+      "sorghum": 0.9291133242472667,
+      "sunflower": 0.532983364864274
     },
-    "NDVI@0": {
-      "Other": 0.003249194289357683,
-      "barley": 2.752984764158872,
-      "millet": 0.9171581915629761,
-      "rice": 0.14475199716498555,
-      "sorghum": 1.3006418681366192,
-      "sunflower": 0.44467635986635967
+    "S2-L2A-B04@9": {
+      "Other": 0.09924007538150201,
+      "barley": 9.44055409103537,
+      "millet": 1.653965934335326,
+      "rice": 2.1544017745784876,
+      "sorghum": 1.4263330408654575,
+      "sunflower": 0.306561930815745
     },
-    "S2-L2A-B11@3": {
-      "Other": 0.05663443386120605,
-      "barley": 4.882390209501655,
-      "millet": 1.3792765448591946,
-      "rice": 1.134043670750565,
-      "sorghum": 1.0307682472518205,
-      "sunflower": 0.3995799644097715
+    "S2-L2A-B04@23": {
+      "Other": 0.20075984237564942,
+      "barley": 3.193013073267423,
+      "millet": 0.4390551306010675,
+      "rice": 1.0436982185780213,
+      "sorghum": 0.5663560157559284,
+      "sunflower": 0.38334663253298396
     },
-    "S2-L2A-B04@13": {
-      "Other": 0.06601096591366545,
-      "barley": 7.921067032374134,
-      "millet": 1.020453818925684,
-      "rice": 0.6183781963263258,
-      "sorghum": 0.8097743853153243,
-      "sunflower": 0.3784154197571262
-    },
-    "S2-L2A-B06@3": {
-      "Other": 0.05387853900064424,
-      "barley": 1.86960049318442,
-      "millet": 0.18765854319493763,
-      "rice": 0.8980542500985267,
-      "sorghum": 0.05446478410089817,
-      "sunflower": 0.05011234899980127
-    },
-    "S2-L2A-B06@6": {
-      "Other": 0.01834877948258102,
-      "barley": 2.2015280736488867,
-      "millet": 0.5257077326668969,
-      "rice": 0.868078533545192,
-      "sorghum": 0.06126447801382085,
-      "sunflower": 0.026696799521447385
-    },
-    "S2-L2A-B05@11": {
-      "Other": 0.03692794366701235,
-      "barley": 3.922111056404554,
-      "millet": 1.0206350298345468,
-      "rice": 0.5287436593378186,
-      "sorghum": 0.39284866852341455,
-      "sunflower": 0.34155011310310185
-    },
-    "S2-L2A-B08@3": {
-      "Other": 0.05508274649800728,
-      "barley": 1.2728310400721237,
-      "millet": 0.10772906489867669,
-      "rice": 1.2337028441628803,
-      "sorghum": 0.05863609628729703,
-      "sunflower": 0.021010271899594934
-    },
-    "S2-L2A-B08@6": {
-      "Other": 0.018810864301061637,
-      "barley": 1.7520420303420623,
-      "millet": 0.3550128428093286,
-      "rice": 1.2337028441628803,
-      "sorghum": 0.02666215487831776,
-      "sunflower": 0.0035443672636466875
-    },
-    "S2-L2A-B06@9": {
-      "Other": 0.016301760495596153,
-      "barley": 1.7904504026112926,
-      "millet": 0.5257077326668969,
-      "rice": 0.23854082301444,
-      "sorghum": 0.05758073869910876,
-      "sunflower": 0.027664863415450373
-    },
-    "S2-L2A-B11@15": {
-      "Other": 0.06272609395861878,
-      "barley": 8.85967585751364,
-      "millet": 0.8908656529801247,
-      "rice": 1.1683819994151459,
-      "sorghum": 1.0551415723743474,
-      "sunflower": 0.3495076754623804
-    },
-    "S2-L2A-B11@18": {
-      "Other": 0.06272609395861878,
-      "barley": 8.849515797254714,
-      "millet": 1.1918230075726834,
-      "rice": 1.4552562634493826,
-      "sorghum": 1.0551415723743474,
-      "sunflower": 0.3921312556565899
-    },
-    "NDYI@12": {
-      "Other": 0.01786746190116624,
-      "barley": 0.1700776428272897,
-      "millet": 0.049323738082921335,
-      "rice": 0.10948533063159413,
-      "sorghum": 0.037656043671576656,
-      "sunflower": 0.01823792813295093
-    },
-    "S2-L2A-B12@15": {
-      "Other": 0.0531165760752204,
-      "barley": 9.50981696273951,
-      "millet": 0.7533082035320926,
-      "rice": 1.2323247459323041,
-      "sorghum": 0.8455312418315044,
-      "sunflower": 0.40116790824293247
-    },
-    "S2-L2A-B12@18": {
-      "Other": 0.05213882816624087,
-      "barley": 9.012489607826064,
-      "millet": 0.7229417243578764,
-      "rice": 1.3625202674285883,
-      "sorghum": 0.8455312418315044,
-      "sunflower": 0.4181428451292188
-    },
-    "S2-L2A-B08@9": {
-      "Other": 0.014736697844774183,
-      "barley": 1.7157700988548443,
-      "millet": 0.3550128428093286,
-      "rice": 0.3689648292502978,
-      "sorghum": 0.03143409437061093,
-      "sunflower": 0.002694455913109624
-    },
-    "S2-L2A-B07@3": {
-      "Other": 0.05027326635194396,
-      "barley": 1.3280666307371112,
-      "millet": 0.1295660431362357,
-      "rice": 0.7679233843858145,
-      "sorghum": 0.06296981361395236,
-      "sunflower": 0.024413574670558894
-    },
-    "S2-L2A-B07@6": {
-      "Other": 0.01608091223981586,
-      "barley": 1.543545218332584,
-      "millet": 0.42735484467284146,
-      "rice": 0.7572386379549811,
-      "sorghum": 0.01459751611933613,
-      "sunflower": 0.008434007824819989
-    },
-    "S2-L2A-B12@3": {
-      "Other": 0.02805392317738018,
-      "barley": 5.900573685408418,
-      "millet": 1.1582881957560929,
-      "rice": 0.7700186187865032,
-      "sorghum": 1.127328518849766,
-      "sunflower": 0.3792920802812435
+    "S2-L2A-B05@23": {
+      "Other": 0.1656924044821321,
+      "barley": 3.051360336204558,
+      "millet": 0.7867078003251984,
+      "rice": 0.7966717842081144,
+      "sorghum": 0.6378496978315216,
+      "sunflower": 0.3087592893798793
     }
   },
-  "season_center_doy": 147.5,
-  "season_sos_doy": 56.0,
-  "earliest_reliable_doy": 56.0,
+  "season_center_doy": 48.0,
+  "season_sos_doy": 305.0,
+  "series_len": 36,
+  "season_type_rule": null,
+  "earliest_reliable_doy": 231.0,
   "split_relationship": "same_parent",
   "country_stats": {
     "crop_proportions": {
-      "Other": 0.3802469135802469,
-      "barley": 0.003703703703703704,
-      "maize": 0.37777777777777777,
-      "millet": 0.04691358024691358,
-      "rice": 0.008641975308641974,
-      "sorghum": 0.02962962962962963,
-      "sunflower": 0.15308641975308643
+      "Other": 0.35953420669577874,
+      "barley": 0.004366812227074236,
+      "maize": 0.3682678311499272,
+      "millet": 0.05240174672489083,
+      "rice": 0.00727802037845706,
+      "sorghum": 0.034934497816593885,
+      "sunflower": 0.17321688500727803
     }
   },
   "recommendation": "Window/prototype approach is viable for this country/crop.",
-  "prototypes_path": "country_models/maize/TZA_maize_prototypes.npz"
+  "prototypes_path": "country_models\\maize\\TZA_maize_prototypes.npz",
+  "window_range": {
+    "margin": 8,
+    "first_window": 0,
+    "last_window": 30,
+    "n_windows_total": 31,
+    "min_windows": 2,
+    "selected_positions": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      23,
+      26,
+      27,
+      29,
+      30
+    ],
+    "first_window_start": "21 Aug",
+    "last_window_end": "20 Aug"
+  },
+  "window_calendar": {
+    "step0_date": "21 Aug",
+    "step0_doy": 234,
+    "windows": [
+      {
+        "t_position": 0,
+        "start_date": "21 Aug",
+        "end_date": "20 Oct",
+        "start_doy": 234,
+        "end_doy": 294,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 2,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 255,
+        "end_doy": 315,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 3,
+        "start_date": "21 Sep",
+        "end_date": "20 Nov",
+        "start_doy": 265,
+        "end_doy": 325,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 4,
+        "start_date": "01 Oct",
+        "end_date": "30 Nov",
+        "start_doy": 275,
+        "end_doy": 335,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 4,
+        "start_date": "01 Oct",
+        "end_date": "30 Nov",
+        "start_doy": 275,
+        "end_doy": 335,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 4,
+        "start_date": "01 Oct",
+        "end_date": "30 Nov",
+        "start_doy": 275,
+        "end_doy": 335,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 5,
+        "start_date": "11 Oct",
+        "end_date": "10 Dec",
+        "start_doy": 285,
+        "end_doy": 345,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 6,
+        "start_date": "21 Oct",
+        "end_date": "20 Dec",
+        "start_doy": 295,
+        "end_doy": 355,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 7,
+        "start_date": "01 Nov",
+        "end_date": "31 Dec",
+        "start_doy": 306,
+        "end_doy": 366,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 7,
+        "start_date": "01 Nov",
+        "end_date": "31 Dec",
+        "start_doy": 306,
+        "end_doy": 366,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 8,
+        "start_date": "11 Nov",
+        "end_date": "10 Jan",
+        "start_doy": 316,
+        "end_doy": 10,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 9,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 10,
+        "start_date": "01 Dec",
+        "end_date": "31 Jan",
+        "start_doy": 336,
+        "end_doy": 31,
+        "band": "REP"
+      },
+      {
+        "t_position": 23,
+        "start_date": "11 Apr",
+        "end_date": "10 Jun",
+        "start_doy": 101,
+        "end_doy": 161,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 23,
+        "start_date": "11 Apr",
+        "end_date": "10 Jun",
+        "start_doy": 101,
+        "end_doy": 161,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 26,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 26,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 26,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 26,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 26,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 27,
+        "start_date": "21 May",
+        "end_date": "20 Jul",
+        "start_doy": 141,
+        "end_doy": 201,
+        "band": "MCARI"
+      },
+      {
+        "t_position": 29,
+        "start_date": "11 Jun",
+        "end_date": "10 Aug",
+        "start_doy": 162,
+        "end_doy": 222,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 29,
+        "start_date": "11 Jun",
+        "end_date": "10 Aug",
+        "start_doy": 162,
+        "end_doy": 222,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 29,
+        "start_date": "11 Jun",
+        "end_date": "10 Aug",
+        "start_doy": 162,
+        "end_doy": 222,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 29,
+        "start_date": "11 Jun",
+        "end_date": "10 Aug",
+        "start_doy": 162,
+        "end_doy": 222,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 30,
+        "start_date": "21 Jun",
+        "end_date": "20 Aug",
+        "start_doy": 172,
+        "end_doy": 232,
+        "band": "S2-L2A-B05"
+      }
+    ],
+    "earliest_window_start": "21 Aug",
+    "earliest_window_end": "20 Oct",
+    "latest_window_end": "20 Aug"
+  }
 }

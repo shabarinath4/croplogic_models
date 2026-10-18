@@ -10,342 +10,536 @@
     {
       "band": "S1-SIGMA0-VH",
       "t_position": 13,
-      "fisher_score": 0.323964923620224,
+      "fisher_score": 0.39089953899383545,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "MCARI",
-      "t_position": 7,
-      "fisher_score": 0.2682557702064514,
+      "t_position": 6,
+      "fisher_score": 0.18910431861877441,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "REP",
-      "t_position": 14,
-      "fisher_score": 0.29323264956474304,
+      "t_position": 15,
+      "fisher_score": 0.32846981287002563,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "S2-L2A-B11",
       "t_position": 18,
-      "fisher_score": 0.8603690266609192,
+      "fisher_score": 0.8247752785682678,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 21,
+      "fisher_score": 0.8247752785682678,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
-      "t_position": 18,
-      "fisher_score": 0.7651236653327942,
+      "t_position": 19,
+      "fisher_score": 0.7760077118873596,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 22,
+      "fisher_score": 0.7760077118873596,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 25,
+      "fisher_score": 0.7554164528846741,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B11",
+      "t_position": 24,
+      "fisher_score": 0.5951372385025024,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B8A",
       "t_position": 16,
-      "fisher_score": 0.5305171012878418,
+      "fisher_score": 0.5640205144882202,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B8A",
+      "t_position": 19,
+      "fisher_score": 0.5640205144882202,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 16,
+      "fisher_score": 0.5302781462669373,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 19,
+      "fisher_score": 0.5302781462669373,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B07",
       "t_position": 16,
-      "fisher_score": 0.4936264753341675,
+      "fisher_score": 0.5289114713668823,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 19,
+      "fisher_score": 0.5289114713668823,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B05",
       "t_position": 18,
-      "fisher_score": 0.4851519763469696,
+      "fisher_score": 0.5164918303489685,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B08",
+      "band": "S2-L2A-B05",
+      "t_position": 21,
+      "fisher_score": 0.5164918303489685,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
+      "t_position": 13,
+      "fisher_score": 0.5124786496162415,
+      "source": "discovered"
+    },
+    {
+      "band": "GCVI",
       "t_position": 16,
-      "fisher_score": 0.484216570854187,
+      "fisher_score": 0.5124786496162415,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B06",
       "t_position": 16,
-      "fisher_score": 0.4423691928386688,
+      "fisher_score": 0.5032767057418823,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 19,
+      "fisher_score": 0.5032767057418823,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 19,
+      "fisher_score": 0.422297865152359,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 22,
+      "fisher_score": 0.422297865152359,
       "source": "discovered"
     },
     {
       "band": "NDVI",
       "t_position": 6,
-      "fisher_score": 0.4397536516189575,
+      "fisher_score": 0.4075620472431183,
       "source": "discovered"
     },
     {
       "band": "NDVI",
       "t_position": 9,
-      "fisher_score": 0.4397536516189575,
+      "fisher_score": 0.4075620472431183,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 21,
+      "fisher_score": 0.3988727033138275,
+      "source": "discovered"
+    },
+    {
+      "band": "MNDWI",
+      "t_position": 24,
+      "fisher_score": 0.3988727033138275,
       "source": "discovered"
     },
     {
       "band": "MNDWI",
       "t_position": 13,
-      "fisher_score": 0.4166205823421478,
+      "fisher_score": 0.37683549523353577,
       "source": "discovered"
     },
     {
       "band": "MNDWI",
       "t_position": 16,
-      "fisher_score": 0.4166205823421478,
+      "fisher_score": 0.37683549523353577,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 4,
+      "fisher_score": 0.35750991106033325,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B12",
+      "t_position": 7,
+      "fisher_score": 0.35750991106033325,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 27,
+      "fisher_score": 0.35694050788879395,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B06",
+      "t_position": 30,
+      "fisher_score": 0.35694050788879395,
       "source": "discovered"
     },
     {
       "band": "GCVI",
-      "t_position": 14,
-      "fisher_score": 0.39979228377342224,
+      "t_position": 19,
+      "fisher_score": 0.3553254008293152,
       "source": "discovered"
     },
     {
-      "band": "GCVI",
-      "t_position": 17,
-      "fisher_score": 0.39979228377342224,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B04",
-      "t_position": 18,
-      "fisher_score": 0.3930109739303589,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B08",
-      "t_position": 5,
-      "fisher_score": 0.3580559194087982,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B08",
-      "t_position": 8,
-      "fisher_score": 0.3580559194087982,
+      "band": "S2-L2A-B12",
+      "t_position": 10,
+      "fisher_score": 0.3550310432910919,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B8A",
-      "t_position": 5,
-      "fisher_score": 0.35087183117866516,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B8A",
-      "t_position": 8,
-      "fisher_score": 0.35087183117866516,
-      "source": "discovered"
-    },
-    {
-      "band": "MNDWI",
-      "t_position": 9,
-      "fisher_score": 0.3358316719532013,
+      "t_position": 13,
+      "fisher_score": 0.33587396144866943,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B07",
-      "t_position": 5,
-      "fisher_score": 0.3064786493778229,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B07",
-      "t_position": 8,
-      "fisher_score": 0.3064786493778229,
-      "source": "discovered"
-    },
-    {
-      "band": "NDVI",
-      "t_position": 3,
-      "fisher_score": 0.29767686128616333,
+      "t_position": 13,
+      "fisher_score": 0.32813647389411926,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B03",
       "t_position": 18,
-      "fisher_score": 0.2976158559322357,
+      "fisher_score": 0.3256794512271881,
       "source": "discovered"
     },
     {
-      "band": "MNDWI",
-      "t_position": 6,
-      "fisher_score": 0.296324223279953,
+      "band": "S2-L2A-B03",
+      "t_position": 21,
+      "fisher_score": 0.3256794512271881,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 3,
+      "fisher_score": 0.32305875420570374,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B08",
+      "t_position": 13,
+      "fisher_score": 0.3220040202140808,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 27,
+      "fisher_score": 0.312988817691803,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B07",
+      "t_position": 30,
+      "fisher_score": 0.312988817691803,
       "source": "discovered"
     }
   ],
   "n_candidates_above_floor": 3,
-  "n_selected": 27,
+  "n_selected": 43,
   "n_positive_train_samples": 34,
   "n_negative_train_samples": 101,
   "n_positive_prototypes": {
     "S1-SIGMA0-VH@13": 34,
-    "MCARI@7": 34,
-    "REP@14": 34,
+    "MCARI@6": 34,
+    "REP@15": 34,
     "S2-L2A-B11@18": 34,
-    "S2-L2A-B12@18": 34,
+    "S2-L2A-B11@21": 34,
+    "S2-L2A-B12@19": 34,
+    "S2-L2A-B12@22": 34,
+    "S2-L2A-B12@25": 34,
+    "S2-L2A-B11@24": 34,
     "S2-L2A-B8A@16": 34,
-    "S2-L2A-B07@16": 34,
-    "S2-L2A-B05@18": 34,
+    "S2-L2A-B8A@19": 34,
     "S2-L2A-B08@16": 34,
+    "S2-L2A-B08@19": 34,
+    "S2-L2A-B07@16": 34,
+    "S2-L2A-B07@19": 34,
+    "S2-L2A-B05@18": 34,
+    "S2-L2A-B05@21": 34,
+    "GCVI@13": 34,
+    "GCVI@16": 34,
     "S2-L2A-B06@16": 34,
+    "S2-L2A-B06@19": 34,
+    "S2-L2A-B04@19": 34,
+    "S2-L2A-B04@22": 34,
     "NDVI@6": 34,
     "NDVI@9": 34,
+    "MNDWI@21": 34,
+    "MNDWI@24": 34,
     "MNDWI@13": 34,
     "MNDWI@16": 34,
-    "GCVI@14": 34,
-    "GCVI@17": 34,
-    "S2-L2A-B04@18": 34,
-    "S2-L2A-B08@5": 34,
-    "S2-L2A-B08@8": 34,
-    "S2-L2A-B8A@5": 34,
-    "S2-L2A-B8A@8": 34,
-    "MNDWI@9": 34,
-    "S2-L2A-B07@5": 34,
-    "S2-L2A-B07@8": 34,
-    "NDVI@3": 34,
+    "S2-L2A-B12@4": 34,
+    "S2-L2A-B12@7": 34,
+    "S2-L2A-B06@27": 34,
+    "S2-L2A-B06@30": 34,
+    "GCVI@19": 34,
+    "S2-L2A-B12@10": 34,
+    "S2-L2A-B8A@13": 34,
+    "S2-L2A-B07@13": 34,
     "S2-L2A-B03@18": 34,
-    "MNDWI@6": 34
+    "S2-L2A-B03@21": 34,
+    "NDVI@3": 34,
+    "S2-L2A-B08@13": 34,
+    "S2-L2A-B07@27": 34,
+    "S2-L2A-B07@30": 34
   },
   "crop_confusion_matrix": {
     "S1-SIGMA0-VH@13": {
-      "Other": 0.5598908732859781,
-      "millet": 0.3267254504311311,
-      "rice": 1.5570270616582331
+      "Other": 0.6159977668125217,
+      "millet": 0.3267253226049564,
+      "rice": 1.5570271211267275
     },
-    "MCARI@7": {
-      "Other": 0.4407630955701439,
-      "millet": 0.13825450733901667,
-      "rice": 0.23068672037077398
+    "MCARI@6": {
+      "Other": 0.5010246729346807,
+      "millet": 0.1620293149790863,
+      "rice": 0.2306867203707742
     },
-    "REP@14": {
-      "Other": 0.7791427368617989,
-      "millet": 2.4590022093180663,
-      "rice": 0.1749330884059753
+    "REP@15": {
+      "Other": 0.2655850375730394,
+      "millet": 2.4590022093179833,
+      "rice": 0.17493308840596422
     },
     "S2-L2A-B11@18": {
-      "Other": 0.27529995758250814,
-      "millet": 0.3944416600440787,
-      "rice": 2.298494620475719
+      "Other": 0.23670824199737542,
+      "millet": 0.39444166004407927,
+      "rice": 2.2984946204757213
     },
-    "S2-L2A-B12@18": {
-      "Other": 0.24261369631423765,
-      "millet": 0.5981909252698688,
-      "rice": 1.7147623120466355
+    "S2-L2A-B11@21": {
+      "Other": 0.41543105960278925,
+      "millet": 0.39444166004407927,
+      "rice": 2.2984946204757213
+    },
+    "S2-L2A-B12@19": {
+      "Other": 0.3525818252770225,
+      "millet": 0.318680022241579,
+      "rice": 1.7147623120466369
+    },
+    "S2-L2A-B12@22": {
+      "Other": 0.8635217242147291,
+      "millet": 0.3558070198702428,
+      "rice": 1.6701546020430735
+    },
+    "S2-L2A-B12@25": {
+      "Other": 0.8635217242147291,
+      "millet": 0.3558070198702428,
+      "rice": 0.7829409870529525
+    },
+    "S2-L2A-B11@24": {
+      "Other": 0.4295323265587388,
+      "millet": 0.48986984842145,
+      "rice": 0.7286090305022752
     },
     "S2-L2A-B8A@16": {
-      "Other": 0.40390766399419,
-      "millet": 0.5418675170078131,
-      "rice": 0.5252619015727118
+      "Other": 0.5563327729452447,
+      "millet": 0.5418675170078141,
+      "rice": 0.5252619015727112
     },
-    "S2-L2A-B07@16": {
-      "Other": 0.4006839188106206,
-      "millet": 0.5649185607617913,
-      "rice": 0.45617673635142153
-    },
-    "S2-L2A-B05@18": {
-      "Other": 0.15342322263143263,
-      "millet": 1.765552955600772,
-      "rice": 1.100777781107191
+    "S2-L2A-B8A@19": {
+      "Other": 0.5563327729452447,
+      "millet": 0.5418675170078141,
+      "rice": 0.5252619015727112
     },
     "S2-L2A-B08@16": {
-      "Other": 0.4223534139517823,
-      "millet": 0.2856581231005654,
-      "rice": 0.5055853650883516
+      "Other": 0.4748656443458695,
+      "millet": 0.28565812310056493,
+      "rice": 0.5055853650883526
+    },
+    "S2-L2A-B08@19": {
+      "Other": 0.4748656443458695,
+      "millet": 0.28565812310056493,
+      "rice": 0.5055853650883526
+    },
+    "S2-L2A-B07@16": {
+      "Other": 0.5253098018624561,
+      "millet": 0.5649185607617924,
+      "rice": 0.4561767363514217
+    },
+    "S2-L2A-B07@19": {
+      "Other": 0.5253098018624561,
+      "millet": 0.5649185607617924,
+      "rice": 0.4561767363514217
+    },
+    "S2-L2A-B05@18": {
+      "Other": 0.17549059724767296,
+      "millet": 1.7655529556007723,
+      "rice": 1.1007777811071913
+    },
+    "S2-L2A-B05@21": {
+      "Other": 0.22490038416034525,
+      "millet": 0.2542488629459988,
+      "rice": 1.1007777811071913
+    },
+    "GCVI@13": {
+      "Other": 0.4608047334225564,
+      "millet": 1.835003574704172,
+      "rice": 0.474677730136114
+    },
+    "GCVI@16": {
+      "Other": 0.6226894883532608,
+      "millet": 1.835003574704172,
+      "rice": 0.474677730136114
     },
     "S2-L2A-B06@16": {
-      "Other": 0.1686309063086862,
-      "millet": 1.5214097622677294,
-      "rice": 0.7942819195127384
+      "Other": 0.2678856344015815,
+      "millet": 1.52140976226773,
+      "rice": 0.7942819195127383
+    },
+    "S2-L2A-B06@19": {
+      "Other": 0.2678856344015815,
+      "millet": 1.52140976226773,
+      "rice": 0.7942819195127383
+    },
+    "S2-L2A-B04@19": {
+      "Other": 0.26950213433246867,
+      "millet": 0.9723524699720214,
+      "rice": 0.7465510949561545
+    },
+    "S2-L2A-B04@22": {
+      "Other": 0.56331905520285,
+      "millet": 0.21337960724475247,
+      "rice": 0.7465510949561545
     },
     "NDVI@6": {
-      "Other": 0.572985081598491,
-      "millet": 0.12071692201449882,
-      "rice": 0.3346821826125968
+      "Other": 0.7467136516158486,
+      "millet": 0.12071692201449852,
+      "rice": 0.3346821826125966
     },
     "NDVI@9": {
-      "Other": 0.572985081598491,
-      "millet": 0.05067975170818678,
-      "rice": 0.3346821826125968
+      "Other": 0.7467136516158486,
+      "millet": 0.050679751708186435,
+      "rice": 0.3346821826125966
+    },
+    "MNDWI@21": {
+      "Other": 0.1646684057886288,
+      "millet": 1.706950556466365,
+      "rice": 1.6611995584509887
+    },
+    "MNDWI@24": {
+      "Other": 0.1646684057886288,
+      "millet": 0.39410414848310316,
+      "rice": 1.6611995584509887
     },
     "MNDWI@13": {
-      "Other": 0.27205558290115306,
-      "millet": 2.3087062771657703,
-      "rice": 0.8830326108876541
+      "Other": 0.11857047314486596,
+      "millet": 2.3087062771657694,
+      "rice": 0.8830326108876534
     },
     "MNDWI@16": {
-      "Other": 0.27205558290115306,
-      "millet": 4.423392475342107,
-      "rice": 0.8830326108876541
+      "Other": 0.11976548284697669,
+      "millet": 4.423392475342103,
+      "rice": 0.8830326108876534
     },
-    "GCVI@14": {
-      "Other": 0.7383216174187657,
-      "millet": 1.8350035747041717,
-      "rice": 0.47467773013611403
+    "S2-L2A-B12@4": {
+      "Other": 0.4056763710801956,
+      "millet": 0.25917563963371043,
+      "rice": 0.12833022070679634
     },
-    "GCVI@17": {
-      "Other": 0.79036524146721,
-      "millet": 1.8350035747041717,
-      "rice": 0.3854008736746226
+    "S2-L2A-B12@7": {
+      "Other": 0.4056763710801956,
+      "millet": 0.25917563963371043,
+      "rice": 0.17304660738111666
     },
-    "S2-L2A-B04@18": {
-      "Other": 0.16887268884048506,
-      "millet": 1.1966297935105321,
-      "rice": 0.7465510949561538
+    "S2-L2A-B06@27": {
+      "Other": 0.11422696348682125,
+      "millet": 0.1443950804318011,
+      "rice": 0.8359545469164691
     },
-    "S2-L2A-B08@5": {
-      "Other": 0.32010349404540095,
-      "millet": 0.14147809193175087,
-      "rice": 0.39067562019960056
+    "S2-L2A-B06@30": {
+      "Other": 0.11422696348682125,
+      "millet": 0.23131896450289868,
+      "rice": 0.8359545469164691
     },
-    "S2-L2A-B08@8": {
-      "Other": 0.32010349404540095,
-      "millet": 0.03375405383520698,
-      "rice": 0.3831284106806925
+    "GCVI@19": {
+      "Other": 0.6118088246210388,
+      "millet": 0.8427800810357298,
+      "rice": 0.308840605004668
     },
-    "S2-L2A-B8A@5": {
-      "Other": 0.3739247741629157,
-      "millet": 0.1372670269413152,
-      "rice": 0.38876500543879655
+    "S2-L2A-B12@10": {
+      "Other": 0.3801388707566799,
+      "millet": 0.03649486643117016,
+      "rice": 0.18834511124109485
     },
-    "S2-L2A-B8A@8": {
-      "Other": 0.3739247741629157,
-      "millet": 0.014868499012737924,
-      "rice": 0.38876500543879655
+    "S2-L2A-B8A@13": {
+      "Other": 0.19942772569412584,
+      "millet": 0.12003441671070311,
+      "rice": 0.40528921351856784
     },
-    "MNDWI@9": {
-      "Other": 0.17943230202465177,
-      "millet": 0.7803660565870445,
-      "rice": 0.7054532141319587
-    },
-    "S2-L2A-B07@5": {
-      "Other": 0.32854713893590437,
-      "millet": 0.18645361949742723,
-      "rice": 0.31994574503147744
-    },
-    "S2-L2A-B07@8": {
-      "Other": 0.32854713893590437,
-      "millet": 0.0387294982322905,
-      "rice": 0.30047508719915805
-    },
-    "NDVI@3": {
-      "Other": 0.482194039416648,
-      "millet": 0.14561657028498948,
-      "rice": 0.258350908478951
+    "S2-L2A-B07@13": {
+      "Other": 0.19573881477350355,
+      "millet": 0.14448984424306924,
+      "rice": 0.36952347205219616
     },
     "S2-L2A-B03@18": {
-      "Other": 0.08389943379987877,
+      "Other": 0.09305218839091602,
       "millet": 2.036776226181699,
-      "rice": 0.6958845311994545
+      "rice": 0.6958845311994548
     },
-    "MNDWI@6": {
-      "Other": 0.17943230202465177,
-      "millet": 0.10627504568470048,
-      "rice": 0.4679017223581391
+    "S2-L2A-B03@21": {
+      "Other": 0.11116230076940227,
+      "millet": 0.18924046204141118,
+      "rice": 0.6958845311994548
+    },
+    "NDVI@3": {
+      "Other": 0.6587501200913528,
+      "millet": 0.14561657028498926,
+      "rice": 0.25835090847895137
+    },
+    "S2-L2A-B08@13": {
+      "Other": 0.17692141508312995,
+      "millet": 0.16857293735315554,
+      "rice": 0.3889985444722236
+    },
+    "S2-L2A-B07@27": {
+      "Other": 0.1289411701672478,
+      "millet": 0.06353424259218092,
+      "rice": 0.8259675665179432
+    },
+    "S2-L2A-B07@30": {
+      "Other": 0.07256299901919964,
+      "millet": 0.2430524149836171,
+      "rice": 0.8259675665179432
     }
   },
   "season_center_doy": 1.5,
   "season_sos_doy": 268.0,
-  "earliest_reliable_doy": 298.0,
+  "series_len": 36,
+  "season_type_rule": null,
+  "earliest_reliable_doy": 214.5,
   "split_relationship": "different_parents",
   "country_stats": {
     "crop_proportions": {
@@ -356,5 +550,386 @@
     }
   },
   "recommendation": "Window/prototype approach is viable for this country/crop.",
-  "prototypes_path": "country_models/maize/LKA_maize_prototypes.npz"
+  "prototypes_path": "country_models\\maize\\LKA_maize_prototypes.npz",
+  "window_range": {
+    "margin": 8,
+    "first_window": 0,
+    "last_window": 30,
+    "n_windows_total": 31,
+    "min_windows": 2,
+    "selected_positions": [
+      3,
+      4,
+      6,
+      7,
+      9,
+      10,
+      13,
+      15,
+      16,
+      18,
+      19,
+      21,
+      22,
+      24,
+      25,
+      27,
+      30
+    ],
+    "first_window_start": "11 Jul",
+    "last_window_end": "10 Jul"
+  },
+  "window_calendar": {
+    "step0_date": "11 Jul",
+    "step0_doy": 193,
+    "windows": [
+      {
+        "t_position": 3,
+        "start_date": "11 Aug",
+        "end_date": "10 Oct",
+        "start_doy": 224,
+        "end_doy": 284,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 4,
+        "start_date": "21 Aug",
+        "end_date": "20 Oct",
+        "start_doy": 234,
+        "end_doy": 294,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 6,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 255,
+        "end_doy": 315,
+        "band": "MCARI"
+      },
+      {
+        "t_position": 6,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 255,
+        "end_doy": 315,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 7,
+        "start_date": "21 Sep",
+        "end_date": "20 Nov",
+        "start_doy": 265,
+        "end_doy": 325,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 9,
+        "start_date": "11 Oct",
+        "end_date": "10 Dec",
+        "start_doy": 285,
+        "end_doy": 345,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 10,
+        "start_date": "21 Oct",
+        "end_date": "20 Dec",
+        "start_doy": 295,
+        "end_doy": 355,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "GCVI"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "MNDWI"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "S2-L2A-B8A"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "S2-L2A-B07"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Nov",
+        "end_date": "20 Jan",
+        "start_doy": 326,
+        "end_doy": 20,
+        "band": "S2-L2A-B08"
+      },
+      {
+        "t_position": 15,
+        "start_date": "11 Dec",
+        "end_date": "10 Feb",
+        "start_doy": 346,
+        "end_doy": 41,
+        "band": "REP"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Dec",
+        "end_date": "20 Feb",
+        "start_doy": 356,
+        "end_doy": 51,
+        "band": "S2-L2A-B8A"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Dec",
+        "end_date": "20 Feb",
+        "start_doy": 356,
+        "end_doy": 51,
+        "band": "S2-L2A-B08"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Dec",
+        "end_date": "20 Feb",
+        "start_doy": 356,
+        "end_doy": 51,
+        "band": "S2-L2A-B07"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Dec",
+        "end_date": "20 Feb",
+        "start_doy": 356,
+        "end_doy": 51,
+        "band": "GCVI"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Dec",
+        "end_date": "20 Feb",
+        "start_doy": 356,
+        "end_doy": 51,
+        "band": "S2-L2A-B06"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Dec",
+        "end_date": "20 Feb",
+        "start_doy": 356,
+        "end_doy": 51,
+        "band": "MNDWI"
+      },
+      {
+        "t_position": 18,
+        "start_date": "11 Jan",
+        "end_date": "10 Mar",
+        "start_doy": 11,
+        "end_doy": 69,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 18,
+        "start_date": "11 Jan",
+        "end_date": "10 Mar",
+        "start_doy": 11,
+        "end_doy": 69,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 18,
+        "start_date": "11 Jan",
+        "end_date": "10 Mar",
+        "start_doy": 11,
+        "end_doy": 69,
+        "band": "S2-L2A-B03"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S2-L2A-B8A"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S2-L2A-B08"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S2-L2A-B07"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S2-L2A-B06"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "GCVI"
+      },
+      {
+        "t_position": 21,
+        "start_date": "11 Feb",
+        "end_date": "10 Apr",
+        "start_doy": 42,
+        "end_doy": 100,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 21,
+        "start_date": "11 Feb",
+        "end_date": "10 Apr",
+        "start_doy": 42,
+        "end_doy": 100,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 21,
+        "start_date": "11 Feb",
+        "end_date": "10 Apr",
+        "start_doy": 42,
+        "end_doy": 100,
+        "band": "MNDWI"
+      },
+      {
+        "t_position": 21,
+        "start_date": "11 Feb",
+        "end_date": "10 Apr",
+        "start_doy": 42,
+        "end_doy": 100,
+        "band": "S2-L2A-B03"
+      },
+      {
+        "t_position": 22,
+        "start_date": "21 Feb",
+        "end_date": "20 Apr",
+        "start_doy": 52,
+        "end_doy": 110,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 22,
+        "start_date": "21 Feb",
+        "end_date": "20 Apr",
+        "start_doy": 52,
+        "end_doy": 110,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 24,
+        "start_date": "11 Mar",
+        "end_date": "10 May",
+        "start_doy": 70,
+        "end_doy": 130,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 24,
+        "start_date": "11 Mar",
+        "end_date": "10 May",
+        "start_doy": 70,
+        "end_doy": 130,
+        "band": "MNDWI"
+      },
+      {
+        "t_position": 25,
+        "start_date": "21 Mar",
+        "end_date": "20 May",
+        "start_doy": 80,
+        "end_doy": 140,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 27,
+        "start_date": "11 Apr",
+        "end_date": "10 Jun",
+        "start_doy": 101,
+        "end_doy": 161,
+        "band": "S2-L2A-B06"
+      },
+      {
+        "t_position": 27,
+        "start_date": "11 Apr",
+        "end_date": "10 Jun",
+        "start_doy": 101,
+        "end_doy": 161,
+        "band": "S2-L2A-B07"
+      },
+      {
+        "t_position": 30,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "S2-L2A-B06"
+      },
+      {
+        "t_position": 30,
+        "start_date": "11 May",
+        "end_date": "10 Jul",
+        "start_doy": 131,
+        "end_doy": 191,
+        "band": "S2-L2A-B07"
+      }
+    ],
+    "earliest_window_start": "11 Aug",
+    "earliest_window_end": "10 Oct",
+    "latest_window_end": "10 Jul"
+  }
 }

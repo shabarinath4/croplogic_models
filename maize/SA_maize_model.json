@@ -9,94 +9,196 @@
   "selected_windows": [
     {
       "band": "S1-SIGMA0-VH",
-      "t_position": 0,
-      "fisher_score": 0.11816848069429398,
+      "t_position": 16,
+      "fisher_score": 0.3616310954093933,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "MCARI",
       "t_position": 0,
-      "fisher_score": 0.2704089879989624,
+      "fisher_score": 0.12307359278202057,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "REP",
       "t_position": 0,
-      "fisher_score": 0.11722351610660553,
+      "fisher_score": 0.14241939783096313,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
-      "band": "S2-L2A-B12",
-      "t_position": 0,
-      "fisher_score": 0.209833025932312,
+      "band": "S2-L2A-B06",
+      "t_position": 14,
+      "fisher_score": 0.37778571248054504,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B05",
-      "t_position": 10,
-      "fisher_score": 0.1686834990978241,
+      "band": "S2-L2A-B06",
+      "t_position": 17,
+      "fisher_score": 0.37778571248054504,
       "source": "discovered"
     },
     {
-      "band": "S2-L2A-B05",
-      "t_position": 13,
-      "fisher_score": 0.1686834990978241,
+      "band": "S1-SIGMA0-VV",
+      "t_position": 16,
+      "fisher_score": 0.37293165922164917,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 19,
+      "fisher_score": 0.37293165922164917,
       "source": "discovered"
     }
   ],
   "n_candidates_above_floor": 3,
-  "n_selected": 6,
-  "n_positive_train_samples": 38,
-  "n_negative_train_samples": 32,
+  "n_selected": 7,
+  "n_positive_train_samples": 58,
+  "n_negative_train_samples": 79,
   "n_positive_prototypes": {
-    "S1-SIGMA0-VH@0": 38,
-    "MCARI@0": 38,
-    "REP@0": 38,
-    "S2-L2A-B12@0": 38,
-    "S2-L2A-B05@10": 38,
-    "S2-L2A-B05@13": 38
+    "S1-SIGMA0-VH@16": 58,
+    "MCARI@0": 58,
+    "REP@0": 58,
+    "S2-L2A-B06@14": 58,
+    "S2-L2A-B06@17": 58,
+    "S1-SIGMA0-VV@16": 58,
+    "S1-SIGMA0-VV@19": 58
   },
   "crop_confusion_matrix": {
-    "S1-SIGMA0-VH@0": {
-      "soy_soybeans": 0.3493773528839619,
-      "sunflower": 0.22078483022526124
+    "S1-SIGMA0-VH@16": {
+      "Other": 0.6526754635633482,
+      "soy_soybeans": 0.4185956500226019,
+      "sunflower": 1.3387931508084518
     },
     "MCARI@0": {
-      "soy_soybeans": 0.3815499929850127,
-      "sunflower": 0.020819476477309445
+      "Other": 0.43907298480083523,
+      "soy_soybeans": 0.12131483298110392,
+      "sunflower": 0.34836870253024554
     },
     "REP@0": {
-      "soy_soybeans": 0.15292144554092812,
-      "sunflower": 0.06846718548812226
+      "Other": 0.003027497044247341,
+      "soy_soybeans": 0.1836795179837415,
+      "sunflower": 1.1354038597090237
     },
-    "S2-L2A-B12@0": {
-      "soy_soybeans": 0.26383738267722123,
-      "sunflower": 0.10144107995777006
+    "S2-L2A-B06@14": {
+      "Other": 0.3119630908555865,
+      "soy_soybeans": 0.42649081081224105,
+      "sunflower": 1.0079612675546057
     },
-    "S2-L2A-B05@10": {
-      "soy_soybeans": 0.3408941981951603,
-      "sunflower": 0.7368152413372597
+    "S2-L2A-B06@17": {
+      "Other": 1.5765099633368496,
+      "soy_soybeans": 0.42649081081224105,
+      "sunflower": 0.44723569650797124
     },
-    "S2-L2A-B05@13": {
-      "soy_soybeans": 0.3408941981951603,
-      "sunflower": 0.7368152413372597
+    "S1-SIGMA0-VV@16": {
+      "Other": 2.316368575426498,
+      "soy_soybeans": 0.41836015698584883,
+      "sunflower": 2.689438883062177
+    },
+    "S1-SIGMA0-VV@19": {
+      "Other": 0.446755952656665,
+      "soy_soybeans": 0.41836015698584883,
+      "sunflower": 1.856321718898776
     }
   },
-  "season_center_doy": 286.5,
-  "season_sos_doy": 189.0,
-  "earliest_reliable_doy": 189.0,
+  "season_center_doy": 32.0,
+  "season_sos_doy": 292.0,
+  "series_len": 36,
+  "season_type_rule": null,
+  "earliest_reliable_doy": 215.0,
   "split_relationship": "different_parents",
   "country_stats": {
     "crop_proportions": {
       "Other": 0.014492753623188406,
-      "maize": 0.5507246376811594,
-      "soy_soybeans": 0.37681159420289856,
-      "sunflower": 0.057971014492753624
+      "maize": 0.42028985507246375,
+      "sorghum": 0.007246376811594203,
+      "soy_soybeans": 0.5289855072463768,
+      "sunflower": 0.028985507246376812
     }
   },
   "recommendation": "Window/prototype approach is viable for this country/crop.",
-  "prototypes_path": "country_models/maize/SA_maize_prototypes.npz"
+  "prototypes_path": "country_models\\maize\\SA_maize_prototypes.npz",
+  "window_range": {
+    "margin": 8,
+    "first_window": 0,
+    "last_window": 27,
+    "n_windows_total": 31,
+    "min_windows": 2,
+    "selected_positions": [
+      0,
+      14,
+      16,
+      17,
+      19
+    ],
+    "first_window_start": "11 Aug",
+    "last_window_end": "10 Jul"
+  },
+  "window_calendar": {
+    "step0_date": "11 Aug",
+    "step0_doy": 224,
+    "windows": [
+      {
+        "t_position": 0,
+        "start_date": "11 Aug",
+        "end_date": "10 Oct",
+        "start_doy": 224,
+        "end_doy": 284,
+        "band": "MCARI"
+      },
+      {
+        "t_position": 0,
+        "start_date": "11 Aug",
+        "end_date": "10 Oct",
+        "start_doy": 224,
+        "end_doy": 284,
+        "band": "REP"
+      },
+      {
+        "t_position": 14,
+        "start_date": "01 Jan",
+        "end_date": "28 Feb",
+        "start_doy": 1,
+        "end_doy": 59,
+        "band": "S2-L2A-B06"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Jan",
+        "end_date": "20 Mar",
+        "start_doy": 21,
+        "end_doy": 79,
+        "band": "S1-SIGMA0-VV"
+      },
+      {
+        "t_position": 17,
+        "start_date": "01 Feb",
+        "end_date": "31 Mar",
+        "start_doy": 32,
+        "end_doy": 90,
+        "band": "S2-L2A-B06"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Feb",
+        "end_date": "20 Apr",
+        "start_doy": 52,
+        "end_doy": 110,
+        "band": "S1-SIGMA0-VV"
+      }
+    ],
+    "earliest_window_start": "11 Aug",
+    "earliest_window_end": "10 Oct",
+    "latest_window_end": "20 Apr"
+  }
 }

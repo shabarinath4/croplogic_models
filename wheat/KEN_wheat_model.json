@@ -10,47 +10,79 @@
     {
       "band": "S1-SIGMA0-VH",
       "t_position": 13,
-      "fisher_score": 0.4714414179325104,
+      "fisher_score": 0.47875598073005676,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "GCVI",
       "t_position": 0,
-      "fisher_score": 0.26790687441825867,
+      "fisher_score": 0.2652447819709778,
       "forced_literature_default": true,
       "source": "literature"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 27,
+      "fisher_score": 0.5353338122367859,
+      "source": "discovered"
+    },
+    {
+      "band": "S1-SIGMA0-VV",
+      "t_position": 30,
+      "fisher_score": 0.5353338122367859,
+      "source": "discovered"
     }
   ],
   "n_candidates_above_floor": 2,
-  "n_selected": 2,
+  "n_selected": 4,
   "n_positive_train_samples": 104,
   "n_negative_train_samples": 3776,
   "n_positive_prototypes": {
     "S1-SIGMA0-VH@13": 104,
-    "GCVI@0": 104
+    "GCVI@0": 104,
+    "S1-SIGMA0-VV@27": 104,
+    "S1-SIGMA0-VV@30": 104
   },
   "crop_confusion_matrix": {
     "S1-SIGMA0-VH@13": {
-      "Other": 0.4084086380010852,
-      "barley": 0.034452733822773494,
-      "maize": 0.5013213185293715,
-      "millet": 0.4307905809759289,
-      "sorghum": 0.720756995581052,
-      "sunflower": 0.3775460861825076
+      "Other": 0.4706468553591896,
+      "barley": 0.03445273642660202,
+      "maize": 0.5013213285187149,
+      "millet": 0.4307905747593256,
+      "sorghum": 0.7207569957034385,
+      "sunflower": 0.3775460832292003
     },
     "GCVI@0": {
-      "Other": 0.2039552753268541,
-      "barley": 0.09309563273041492,
-      "maize": 0.31247595681924156,
-      "millet": 0.07654766016310864,
-      "sorghum": 0.2604561700283086,
-      "sunflower": 0.24986856638795973
+      "Other": 0.2129760978574637,
+      "barley": 0.09309563273041518,
+      "maize": 0.31247595681924195,
+      "millet": 0.07654766016310852,
+      "sorghum": 0.2604561700283085,
+      "sunflower": 0.24986856638795943
+    },
+    "S1-SIGMA0-VV@27": {
+      "Other": 0.4815542927915104,
+      "barley": 0.23260623129751132,
+      "maize": 0.589428950983417,
+      "millet": 0.268447903490689,
+      "sorghum": 0.8231932336903682,
+      "sunflower": 0.5760534499310315
+    },
+    "S1-SIGMA0-VV@30": {
+      "Other": 0.4815542927915104,
+      "barley": 0.23260623129751132,
+      "maize": 0.589428950983417,
+      "millet": 0.268447903490689,
+      "sorghum": 0.8231932336903682,
+      "sunflower": 0.5760534499310315
     }
   },
   "season_center_doy": 160.5,
   "season_sos_doy": 281.0,
-  "earliest_reliable_doy": 281.0,
+  "series_len": 36,
+  "season_type_rule": null,
+  "earliest_reliable_doy": 343.5,
   "split_relationship": "different_parents",
   "country_stats": {
     "crop_proportions": {
@@ -65,5 +97,61 @@
     }
   },
   "recommendation": "Window/prototype approach is viable for this country/crop.",
-  "prototypes_path": "country_models/wheat/KEN_wheat_prototypes.npz"
+  "prototypes_path": "country_models\\wheat\\KEN_wheat_prototypes.npz",
+  "window_range": {
+    "margin": 12,
+    "first_window": 0,
+    "last_window": 30,
+    "n_windows_total": 31,
+    "min_windows": 2,
+    "selected_positions": [
+      0,
+      13,
+      27,
+      30
+    ],
+    "first_window_start": "11 Dec",
+    "last_window_end": "10 Dec"
+  },
+  "window_calendar": {
+    "step0_date": "11 Dec",
+    "step0_doy": 346,
+    "windows": [
+      {
+        "t_position": 0,
+        "start_date": "11 Dec",
+        "end_date": "10 Feb",
+        "start_doy": 346,
+        "end_doy": 41,
+        "band": "GCVI"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Apr",
+        "end_date": "20 Jun",
+        "start_doy": 111,
+        "end_doy": 171,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 27,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 254,
+        "end_doy": 314,
+        "band": "S1-SIGMA0-VV"
+      },
+      {
+        "t_position": 30,
+        "start_date": "11 Oct",
+        "end_date": "10 Dec",
+        "start_doy": 284,
+        "end_doy": 344,
+        "band": "S1-SIGMA0-VV"
+      }
+    ],
+    "earliest_window_start": "11 Dec",
+    "earliest_window_end": "10 Feb",
+    "latest_window_end": "10 Dec"
+  }
 }

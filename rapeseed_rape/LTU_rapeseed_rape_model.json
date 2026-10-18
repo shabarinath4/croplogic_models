@@ -9,102 +9,204 @@
   "selected_windows": [
     {
       "band": "S1-SIGMA0-VH",
-      "t_position": 11,
-      "fisher_score": 4.49704122543335,
+      "t_position": 25,
+      "fisher_score": 5.009233474731445,
       "source": "literature"
     },
     {
       "band": "S1-SIGMA0-VH",
-      "t_position": 14,
-      "fisher_score": 4.49704122543335,
+      "t_position": 28,
+      "fisher_score": 5.009233474731445,
       "source": "literature"
     },
     {
       "band": "S1-SIGMA0-VH",
-      "t_position": 17,
-      "fisher_score": 1.9741133451461792,
+      "t_position": 22,
+      "fisher_score": 3.0883572101593018,
       "source": "literature"
     },
     {
       "band": "S1-SIGMA0-VH",
-      "t_position": 8,
-      "fisher_score": 1.9596563577651978,
+      "t_position": 0,
+      "fisher_score": 1.5808242559432983,
       "source": "literature"
     },
     {
       "band": "NDYI",
-      "t_position": 10,
-      "fisher_score": 0.938151478767395,
-      "forced_literature_default": true,
+      "t_position": 23,
+      "fisher_score": 1.0076955556869507,
+      "source": "literature"
+    },
+    {
+      "band": "NDYI",
+      "t_position": 26,
+      "fisher_score": 1.0076955556869507,
       "source": "literature"
     },
     {
       "band": "MNDWI",
-      "t_position": 10,
-      "fisher_score": 4.369085311889648,
+      "t_position": 23,
+      "fisher_score": 4.631555557250977,
       "source": "discovered"
     },
     {
       "band": "MNDWI",
-      "t_position": 13,
-      "fisher_score": 4.369085311889648,
+      "t_position": 26,
+      "fisher_score": 4.631555557250977,
       "source": "discovered"
     }
   ],
-  "n_candidates_above_floor": 5,
-  "n_selected": 7,
+  "n_candidates_above_floor": 8,
+  "n_selected": 8,
   "n_positive_train_samples": 218,
-  "n_negative_train_samples": 943,
+  "n_negative_train_samples": 1598,
   "n_positive_prototypes": {
-    "S1-SIGMA0-VH@11": 218,
-    "S1-SIGMA0-VH@14": 218,
-    "S1-SIGMA0-VH@17": 218,
-    "S1-SIGMA0-VH@8": 218,
-    "NDYI@10": 218,
-    "MNDWI@10": 218,
-    "MNDWI@13": 218
+    "S1-SIGMA0-VH@25": 218,
+    "S1-SIGMA0-VH@28": 218,
+    "S1-SIGMA0-VH@22": 218,
+    "S1-SIGMA0-VH@0": 218,
+    "NDYI@23": 218,
+    "NDYI@26": 218,
+    "MNDWI@23": 218,
+    "MNDWI@26": 218
   },
   "crop_confusion_matrix": {
-    "S1-SIGMA0-VH@11": {
-      "Other": 5.694100483437747,
-      "maize": 5.30033927995604
+    "S1-SIGMA0-VH@25": {
+      "Other": 6.9132586908383775,
+      "maize": 8.650807419565492
     },
-    "S1-SIGMA0-VH@14": {
-      "Other": 5.694100483437747,
-      "maize": 5.30033927995604
+    "S1-SIGMA0-VH@28": {
+      "Other": 6.9132586908383775,
+      "maize": 8.650807419565492
     },
-    "S1-SIGMA0-VH@17": {
-      "Other": 2.094180322573845,
-      "maize": 1.17750575650362
+    "S1-SIGMA0-VH@22": {
+      "Other": 4.5019458976649505,
+      "maize": 6.681505868689091
     },
-    "S1-SIGMA0-VH@8": {
-      "Other": 3.096686296186075,
-      "maize": 3.139493450017583
+    "S1-SIGMA0-VH@0": {
+      "Other": 1.613333457257134,
+      "maize": 0.2939649962408043
     },
-    "NDYI@10": {
-      "Other": 0.9891445248304139,
-      "maize": 5.6380835950707375
+    "NDYI@23": {
+      "Other": 0.8730379003740566,
+      "maize": 6.50015984682765
     },
-    "MNDWI@10": {
-      "Other": 6.078879407131966,
-      "maize": 5.136043889988663
+    "NDYI@26": {
+      "Other": 0.8730379003740566,
+      "maize": 6.50015984682765
     },
-    "MNDWI@13": {
-      "Other": 6.078879407131966,
-      "maize": 5.136043889988663
+    "MNDWI@23": {
+      "Other": 6.533894290147191,
+      "maize": 6.079271439813518
+    },
+    "MNDWI@26": {
+      "Other": 6.533894290147191,
+      "maize": 6.610025674341646
     }
   },
-  "season_center_doy": 196.5,
-  "season_sos_doy": 102.0,
-  "earliest_reliable_doy": 182.0,
+  "season_center_doy": 65.0,
+  "season_sos_doy": 243.0,
+  "series_len": 36,
+  "season_type_rule": "winter",
+  "earliest_reliable_doy": 248.0,
   "split_relationship": "same_parent",
   "country_stats": {
     "crop_proportions": {
-      "Other": 0.7761944677284157,
-      "maize": 0.030176026823134954,
-      "rapeseed_rape": 0.19362950544844929
+      "Other": 0.8622291021671826,
+      "maize": 0.018575851393188854,
+      "rapeseed_rape": 0.11919504643962849
     }
   },
   "recommendation": "Window/prototype approach is viable for this country/crop.",
-  "prototypes_path": "country_models/rapeseed_rape/LTU_rapeseed_rape_prototypes.npz"
+  "prototypes_path": "country_models\\rapeseed_rape\\LTU_rapeseed_rape_prototypes.npz",
+  "window_range": {
+    "margin": 12,
+    "first_window": 0,
+    "last_window": 30,
+    "n_windows_total": 31,
+    "min_windows": 2,
+    "selected_positions": [
+      0,
+      22,
+      23,
+      25,
+      26,
+      28
+    ],
+    "first_window_start": "11 Sep",
+    "last_window_end": "10 Sep"
+  },
+  "window_calendar": {
+    "step0_date": "11 Sep",
+    "step0_doy": 255,
+    "windows": [
+      {
+        "t_position": 0,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 255,
+        "end_doy": 315,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 22,
+        "start_date": "21 Apr",
+        "end_date": "20 Jun",
+        "start_doy": 111,
+        "end_doy": 171,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 23,
+        "start_date": "01 May",
+        "end_date": "30 Jun",
+        "start_doy": 121,
+        "end_doy": 181,
+        "band": "NDYI"
+      },
+      {
+        "t_position": 23,
+        "start_date": "01 May",
+        "end_date": "30 Jun",
+        "start_doy": 121,
+        "end_doy": 181,
+        "band": "MNDWI"
+      },
+      {
+        "t_position": 25,
+        "start_date": "21 May",
+        "end_date": "20 Jul",
+        "start_doy": 141,
+        "end_doy": 201,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 26,
+        "start_date": "01 Jun",
+        "end_date": "31 Jul",
+        "start_doy": 152,
+        "end_doy": 212,
+        "band": "NDYI"
+      },
+      {
+        "t_position": 26,
+        "start_date": "01 Jun",
+        "end_date": "31 Jul",
+        "start_doy": 152,
+        "end_doy": 212,
+        "band": "MNDWI"
+      },
+      {
+        "t_position": 28,
+        "start_date": "21 Jun",
+        "end_date": "20 Aug",
+        "start_doy": 172,
+        "end_doy": 232,
+        "band": "S1-SIGMA0-VH"
+      }
+    ],
+    "earliest_window_start": "11 Sep",
+    "earliest_window_end": "10 Nov",
+    "latest_window_end": "20 Aug"
+  }
 }

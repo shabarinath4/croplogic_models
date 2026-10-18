@@ -10,247 +10,290 @@
     {
       "band": "S1-SIGMA0-VH",
       "t_position": 18,
-      "fisher_score": 1.0326389074325562,
+      "fisher_score": 0.9811531901359558,
+      "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "MCARI",
-      "t_position": 12,
-      "fisher_score": 0.9462072849273682,
+      "t_position": 11,
+      "fisher_score": 0.911194920539856,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
       "band": "REP",
       "t_position": 12,
-      "fisher_score": 0.601740837097168,
+      "fisher_score": 0.5276428461074829,
       "forced_literature_default": true,
       "source": "literature"
     },
     {
-      "band": "S2-L2A-B04",
-      "t_position": 13,
-      "fisher_score": 1.4270007610321045,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B04",
-      "t_position": 16,
-      "fisher_score": 1.4270007610321045,
-      "source": "discovered"
-    },
-    {
       "band": "S2-L2A-B11",
       "t_position": 2,
-      "fisher_score": 1.4019818305969238,
+      "fisher_score": 1.3318769931793213,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B11",
       "t_position": 5,
-      "fisher_score": 1.4019818305969238,
+      "fisher_score": 1.3318769931793213,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
       "t_position": 2,
-      "fisher_score": 1.3404107093811035,
+      "fisher_score": 1.2943847179412842,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
       "t_position": 5,
-      "fisher_score": 1.3404107093811035,
+      "fisher_score": 1.2943847179412842,
       "source": "discovered"
     },
     {
-      "band": "NDVI",
+      "band": "S2-L2A-B04",
       "t_position": 13,
-      "fisher_score": 1.2940515279769897,
+      "fisher_score": 1.2690067291259766,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 16,
+      "fisher_score": 1.2690067291259766,
       "source": "discovered"
     },
     {
       "band": "NDVI",
-      "t_position": 16,
-      "fisher_score": 1.2940515279769897,
+      "t_position": 12,
+      "fisher_score": 1.1687263250350952,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 15,
+      "fisher_score": 1.1687263250350952,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 19,
+      "fisher_score": 1.152455449104309,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 18,
+      "fisher_score": 1.0825157165527344,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B05",
       "t_position": 13,
-      "fisher_score": 1.1521265506744385,
+      "fisher_score": 1.0149059295654297,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B05",
       "t_position": 16,
-      "fisher_score": 1.1521265506744385,
+      "fisher_score": 1.0149059295654297,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
       "t_position": 12,
-      "fisher_score": 1.1075819730758667,
+      "fisher_score": 0.9974640607833862,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B12",
       "t_position": 15,
-      "fisher_score": 1.1075819730758667,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B02",
-      "t_position": 17,
-      "fisher_score": 0.9454329609870911,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B02",
-      "t_position": 13,
-      "fisher_score": 0.9275391101837158,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B04",
-      "t_position": 2,
-      "fisher_score": 0.9173936247825623,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B04",
-      "t_position": 5,
-      "fisher_score": 0.9173936247825623,
-      "source": "discovered"
-    },
-    {
-      "band": "S2-L2A-B03",
-      "t_position": 17,
-      "fisher_score": 0.9056419134140015,
+      "fisher_score": 0.9974640607833862,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B02",
       "t_position": 2,
-      "fisher_score": 0.902084231376648,
+      "fisher_score": 0.8754275441169739,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B02",
       "t_position": 5,
-      "fisher_score": 0.902084231376648,
+      "fisher_score": 0.8754275441169739,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 2,
+      "fisher_score": 0.8637536764144897,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B04",
+      "t_position": 5,
+      "fisher_score": 0.8637536764144897,
+      "source": "discovered"
+    },
+    {
+      "band": "NDVI",
+      "t_position": 21,
+      "fisher_score": 0.8503329157829285,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B02",
+      "t_position": 17,
+      "fisher_score": 0.8142520785331726,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B02",
+      "t_position": 20,
+      "fisher_score": 0.8142520785331726,
       "source": "discovered"
     },
     {
       "band": "S2-L2A-B03",
+      "t_position": 17,
+      "fisher_score": 0.809285044670105,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B03",
+      "t_position": 20,
+      "fisher_score": 0.809285044670105,
+      "source": "discovered"
+    },
+    {
+      "band": "S2-L2A-B02",
       "t_position": 13,
-      "fisher_score": 0.867945671081543,
+      "fisher_score": 0.8082588911056519,
       "source": "discovered"
     }
   ],
   "n_candidates_above_floor": 3,
-  "n_selected": 23,
+  "n_selected": 27,
   "n_positive_train_samples": 3234,
   "n_negative_train_samples": 376,
   "n_positive_prototypes": {
     "S1-SIGMA0-VH@18": 3234,
-    "MCARI@12": 3234,
+    "MCARI@11": 3234,
     "REP@12": 3234,
-    "S2-L2A-B04@13": 3234,
-    "S2-L2A-B04@16": 3234,
     "S2-L2A-B11@2": 3234,
     "S2-L2A-B11@5": 3234,
     "S2-L2A-B12@2": 3234,
     "S2-L2A-B12@5": 3234,
-    "NDVI@13": 3234,
-    "NDVI@16": 3234,
+    "S2-L2A-B04@13": 3234,
+    "S2-L2A-B04@16": 3234,
+    "NDVI@12": 3234,
+    "NDVI@15": 3234,
+    "S2-L2A-B04@19": 3234,
+    "NDVI@18": 3234,
     "S2-L2A-B05@13": 3234,
     "S2-L2A-B05@16": 3234,
     "S2-L2A-B12@12": 3234,
     "S2-L2A-B12@15": 3234,
-    "S2-L2A-B02@17": 3234,
-    "S2-L2A-B02@13": 3234,
-    "S2-L2A-B04@2": 3234,
-    "S2-L2A-B04@5": 3234,
-    "S2-L2A-B03@17": 3234,
     "S2-L2A-B02@2": 3234,
     "S2-L2A-B02@5": 3234,
-    "S2-L2A-B03@13": 3234
+    "S2-L2A-B04@2": 3234,
+    "S2-L2A-B04@5": 3234,
+    "NDVI@21": 3234,
+    "S2-L2A-B02@17": 3234,
+    "S2-L2A-B02@20": 3234,
+    "S2-L2A-B03@17": 3234,
+    "S2-L2A-B03@20": 3234,
+    "S2-L2A-B02@13": 3234
   },
   "crop_confusion_matrix": {
     "S1-SIGMA0-VH@18": {
-      "Other": 1.0051993156225394
+      "Other": 1.2692243696806655
     },
-    "MCARI@12": {
-      "Other": 1.058532097561505
+    "MCARI@11": {
+      "Other": 1.2417479102871596
     },
     "REP@12": {
-      "Other": 0.43656002565347657
-    },
-    "S2-L2A-B04@13": {
-      "Other": 1.3295089259126747
-    },
-    "S2-L2A-B04@16": {
-      "Other": 1.3295089259126747
+      "Other": 0.5661765195156919
     },
     "S2-L2A-B11@2": {
-      "Other": 1.2543529216004319
+      "Other": 1.3334486583419658
     },
     "S2-L2A-B11@5": {
-      "Other": 1.2543529216004319
+      "Other": 1.3334486583419658
     },
     "S2-L2A-B12@2": {
-      "Other": 1.1898903366656133
+      "Other": 1.2358886303936547
     },
     "S2-L2A-B12@5": {
-      "Other": 1.1898903366656133
+      "Other": 1.2358886303936547
     },
-    "NDVI@13": {
-      "Other": 1.2926853645756524
+    "S2-L2A-B04@13": {
+      "Other": 1.9106539023724087
     },
-    "NDVI@16": {
-      "Other": 1.2926853645756524
+    "S2-L2A-B04@16": {
+      "Other": 1.9106539023724087
+    },
+    "NDVI@12": {
+      "Other": 1.6520118835932842
+    },
+    "NDVI@15": {
+      "Other": 1.6643746590760125
+    },
+    "S2-L2A-B04@19": {
+      "Other": 1.6735602914004797
+    },
+    "NDVI@18": {
+      "Other": 1.6063090459538734
     },
     "S2-L2A-B05@13": {
-      "Other": 1.0684375212064965
+      "Other": 1.5843730483901717
     },
     "S2-L2A-B05@16": {
-      "Other": 1.0684375212064965
+      "Other": 1.5843730483901717
     },
     "S2-L2A-B12@12": {
-      "Other": 1.092521373842414
+      "Other": 1.5132795595319455
     },
     "S2-L2A-B12@15": {
-      "Other": 1.092521373842414
-    },
-    "S2-L2A-B02@17": {
-      "Other": 0.88269541416068
-    },
-    "S2-L2A-B02@13": {
-      "Other": 0.88269541416068
-    },
-    "S2-L2A-B04@2": {
-      "Other": 0.8198488301427284
-    },
-    "S2-L2A-B04@5": {
-      "Other": 0.8198488301427284
-    },
-    "S2-L2A-B03@17": {
-      "Other": 0.8178090227830935
+      "Other": 1.5132795595319455
     },
     "S2-L2A-B02@2": {
-      "Other": 0.8218417935131012
+      "Other": 0.9254857507057663
     },
     "S2-L2A-B02@5": {
-      "Other": 0.8218417935131012
+      "Other": 0.9254857507057663
     },
-    "S2-L2A-B03@13": {
-      "Other": 0.8178090227830935
+    "S2-L2A-B04@2": {
+      "Other": 0.9008215444229408
+    },
+    "S2-L2A-B04@5": {
+      "Other": 0.9008215444229408
+    },
+    "NDVI@21": {
+      "Other": 1.2025988818702664
+    },
+    "S2-L2A-B02@17": {
+      "Other": 1.2297529693382105
+    },
+    "S2-L2A-B02@20": {
+      "Other": 1.1973032485017248
+    },
+    "S2-L2A-B03@17": {
+      "Other": 1.1917378594863584
+    },
+    "S2-L2A-B03@20": {
+      "Other": 1.1109189188030089
+    },
+    "S2-L2A-B02@13": {
+      "Other": 1.2297529693382105
     }
   },
   "season_center_doy": 251.5,
   "season_sos_doy": 173.0,
-  "earliest_reliable_doy": 193.0,
+  "series_len": 36,
+  "season_type_rule": null,
+  "earliest_reliable_doy": 89.5,
   "split_relationship": "different_parents",
   "country_stats": {
     "crop_proportions": {
@@ -259,5 +302,253 @@
     }
   },
   "recommendation": "Window/prototype approach is viable for this country/crop.",
-  "prototypes_path": "country_models/maize/SEN_maize_prototypes.npz"
+  "prototypes_path": "country_models\\maize\\SEN_maize_prototypes.npz",
+  "window_range": {
+    "margin": 8,
+    "first_window": 0,
+    "last_window": 29,
+    "n_windows_total": 31,
+    "min_windows": 2,
+    "selected_positions": [
+      2,
+      5,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "first_window_start": "11 Mar",
+    "last_window_end": "28 Feb"
+  },
+  "window_calendar": {
+    "step0_date": "11 Mar",
+    "step0_doy": 70,
+    "windows": [
+      {
+        "t_position": 2,
+        "start_date": "01 Apr",
+        "end_date": "31 May",
+        "start_doy": 91,
+        "end_doy": 151,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 2,
+        "start_date": "01 Apr",
+        "end_date": "31 May",
+        "start_doy": 91,
+        "end_doy": 151,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 2,
+        "start_date": "01 Apr",
+        "end_date": "31 May",
+        "start_doy": 91,
+        "end_doy": 151,
+        "band": "S2-L2A-B02"
+      },
+      {
+        "t_position": 2,
+        "start_date": "01 Apr",
+        "end_date": "31 May",
+        "start_doy": 91,
+        "end_doy": 151,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 5,
+        "start_date": "01 May",
+        "end_date": "30 Jun",
+        "start_doy": 121,
+        "end_doy": 181,
+        "band": "S2-L2A-B11"
+      },
+      {
+        "t_position": 5,
+        "start_date": "01 May",
+        "end_date": "30 Jun",
+        "start_doy": 121,
+        "end_doy": 181,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 5,
+        "start_date": "01 May",
+        "end_date": "30 Jun",
+        "start_doy": 121,
+        "end_doy": 181,
+        "band": "S2-L2A-B02"
+      },
+      {
+        "t_position": 5,
+        "start_date": "01 May",
+        "end_date": "30 Jun",
+        "start_doy": 121,
+        "end_doy": 181,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 11,
+        "start_date": "01 Jul",
+        "end_date": "31 Aug",
+        "start_doy": 182,
+        "end_doy": 243,
+        "band": "MCARI"
+      },
+      {
+        "t_position": 12,
+        "start_date": "11 Jul",
+        "end_date": "10 Sep",
+        "start_doy": 192,
+        "end_doy": 253,
+        "band": "REP"
+      },
+      {
+        "t_position": 12,
+        "start_date": "11 Jul",
+        "end_date": "10 Sep",
+        "start_doy": 192,
+        "end_doy": 253,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 12,
+        "start_date": "11 Jul",
+        "end_date": "10 Sep",
+        "start_doy": 192,
+        "end_doy": 253,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Jul",
+        "end_date": "20 Sep",
+        "start_doy": 202,
+        "end_doy": 263,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Jul",
+        "end_date": "20 Sep",
+        "start_doy": 202,
+        "end_doy": 263,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 13,
+        "start_date": "21 Jul",
+        "end_date": "20 Sep",
+        "start_doy": 202,
+        "end_doy": 263,
+        "band": "S2-L2A-B02"
+      },
+      {
+        "t_position": 15,
+        "start_date": "11 Aug",
+        "end_date": "10 Oct",
+        "start_doy": 223,
+        "end_doy": 283,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 15,
+        "start_date": "11 Aug",
+        "end_date": "10 Oct",
+        "start_doy": 223,
+        "end_doy": 283,
+        "band": "S2-L2A-B12"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Aug",
+        "end_date": "20 Oct",
+        "start_doy": 233,
+        "end_doy": 293,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 16,
+        "start_date": "21 Aug",
+        "end_date": "20 Oct",
+        "start_doy": 233,
+        "end_doy": 293,
+        "band": "S2-L2A-B05"
+      },
+      {
+        "t_position": 17,
+        "start_date": "01 Sep",
+        "end_date": "31 Oct",
+        "start_doy": 244,
+        "end_doy": 304,
+        "band": "S2-L2A-B02"
+      },
+      {
+        "t_position": 17,
+        "start_date": "01 Sep",
+        "end_date": "31 Oct",
+        "start_doy": 244,
+        "end_doy": 304,
+        "band": "S2-L2A-B03"
+      },
+      {
+        "t_position": 18,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 254,
+        "end_doy": 314,
+        "band": "S1-SIGMA0-VH"
+      },
+      {
+        "t_position": 18,
+        "start_date": "11 Sep",
+        "end_date": "10 Nov",
+        "start_doy": 254,
+        "end_doy": 314,
+        "band": "NDVI"
+      },
+      {
+        "t_position": 19,
+        "start_date": "21 Sep",
+        "end_date": "20 Nov",
+        "start_doy": 264,
+        "end_doy": 324,
+        "band": "S2-L2A-B04"
+      },
+      {
+        "t_position": 20,
+        "start_date": "01 Oct",
+        "end_date": "30 Nov",
+        "start_doy": 274,
+        "end_doy": 334,
+        "band": "S2-L2A-B02"
+      },
+      {
+        "t_position": 20,
+        "start_date": "01 Oct",
+        "end_date": "30 Nov",
+        "start_doy": 274,
+        "end_doy": 334,
+        "band": "S2-L2A-B03"
+      },
+      {
+        "t_position": 21,
+        "start_date": "11 Oct",
+        "end_date": "10 Dec",
+        "start_doy": 284,
+        "end_doy": 344,
+        "band": "NDVI"
+      }
+    ],
+    "earliest_window_start": "01 Apr",
+    "earliest_window_end": "31 May",
+    "latest_window_end": "10 Dec"
+  }
 }
